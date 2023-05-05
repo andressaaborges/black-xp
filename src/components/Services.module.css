@@ -1,0 +1,137 @@
+.services {
+    background: var(--gray-300);
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.services::after {
+    content: '';
+    height: 100%;
+    right: 0%;
+    position: absolute;
+    top: 100%;
+    transform-origin: left;
+    transform: skewY(-4deg);
+    width: 100%;
+    background: var(--white);
+}
+
+.arrowDown {
+    padding: 0;
+    margin: -40px;
+    display: flex;
+    justify-content: center;
+    color: var(--blue-600);
+}
+
+.arrowDown>div {
+    position: absolute;
+    color: var(--white);
+    margin: 35px;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.content .description {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 3rem;
+    margin: 6.5rem 10rem 0;
+}
+
+.content .description h2 {
+    width: 40%;
+    flex-flow: row wrap;
+    flex-grow: 2;
+    /* talvez esse flex não sirva */
+    color: var(--gray-700);
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.content .description span {
+    color: var(--blue-400);
+    font-weight: 700;
+}
+
+.content .description p {
+    width: 60%;
+    color: var(--gray-700);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.cardsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+    margin: 0 10rem 0 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 50%;
+}
+
+.illustration {
+    width: 50%;
+}
+
+@media (max-width: 1280px) and (min-width: 1121px) {
+    .content .description {
+        margin: 2rem 10rem 0;
+    }
+}
+
+@media (max-width: 1120px) {
+    .content .description {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 3rem 2rem 0 2rem;
+    }
+
+    .content .description p {
+        font-size: 16px;
+    }
+
+    .content .description h2,
+    .content .description p {
+        width: 100%;
+    }
+
+    .cardsSection {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+    .cards {
+        gap: 2.5rem;
+        margin: 3rem 2rem 0 2rem;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .illustration {
+        width: 85%;
+    }
+}
+
+/* margem adequada pra mobile
+margin: 3rem 4rem 0 4rem; */

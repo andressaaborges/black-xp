@@ -1,0 +1,111 @@
+.faq {
+    background: var(--gray-200);
+    height: 100%;
+    width: 100vw;
+    padding: 0 6rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.container h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 117%;
+    color: var(--black);
+    margin: 0 10rem;
+    width: 60%;
+}
+
+.container span {
+    color: var(--blue-400);
+    font-weight: 700;
+}
+
+.container ol {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem 5rem;
+}
+
+.container li {
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 200%;
+    color: var(--blue-400);
+}
+
+.container a {
+    line-height: 30px;
+    color: var(--blue-300);
+}
+
+.container p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: var(--gray-600);
+    margin-bottom: 1rem;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    background: transparent;
+    content: url(./../assets/caret-circle-up-light.svg);
+    color: transparent;
+}
+
+details[open] summary:after {
+    background: transparent;
+    content: url(./../assets/caret-circle-down-light.svg);;
+    color: transparent;
+}
+
+summary{
+    list-style-type: '';
+}
+
+details[open] summary{
+    list-style-type: '';
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.listItem:disabled {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1280px) and (min-width: 1121px) {
+    .content {
+        margin: 2rem 5rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .faq {
+        padding: 4rem 2rem 0;
+    }
+
+    .container h2 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .container ol {
+        margin: 0;
+    }
+}

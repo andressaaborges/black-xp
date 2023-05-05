@@ -1,0 +1,25 @@
+.cardAttributes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+
+.cardAttributes h1 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--gray-700);
+}
+
+.cardAttributes span {
+    font-weight: 700;
+    color: var(--gray-700);
+}
+
+.cardAttributes p {
+    text-transform: uppercase;
+    color: var(--gray-400);
+    font-weight: 700;
+    line-height: 200%;
+    font-size: 0.858rem;
+}
+
