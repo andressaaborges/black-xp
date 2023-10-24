@@ -40,7 +40,6 @@ const dataCardsTalents = [
         talent: {
             photo: personValConceicao,
             name: "Val",
-            surname: "Fernandez",
             surname: "Conceição",
             companies: "Coordenador Geral Moviafro • Produtor Cultural"
         },
