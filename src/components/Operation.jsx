@@ -1,41 +1,10 @@
 import { CardOperation } from './CardOperation';
 import styles from './Operation.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css";
+import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
-import { useState } from 'react';
-
-const dataCardsOperation = [
-    {
-        id: 1,
-        content: {
-            title: "O começo de tudo",
-            text: "Profissionais e empresas compartilham seus objetivos dentro da nossa plataforma."
-        },
-    },
-    {
-        id: 2,
-        content: {
-            title: "O match perfeito",
-            text: "Buscamos os perfis ideais para cada projeto e criamos a melhor conexão possível."
-        },
-    },
-    {
-        id: 3,
-        content: {
-            title: "Bate-papo, jogo rápido",
-            text: "Empresas e talentos se conhecem e conversam para alinhar todos os detalhes."
-        },
-    },
-    {
-        id: 4,
-        content: {
-            title: "Pronto!",
-            text: "Agora, a seleção de talentos é feita, o contrato é assinado e o projeto começa."
-        },
-    },
-];
+import { motion } from 'framer-motion';
 
 export function Operation() {
 
@@ -43,20 +12,20 @@ export function Operation() {
         return (
             <section className={styles.operation} id="operation">
                 <article className={styles.content}>
-                    <h2>Veja <span>como funciona.</span></h2>
+                    <h2>Nosso Impacto<span><br />Compromisso Ancestral</span></h2>
                     <div className={styles.cardsSectionOperation}>
                         <Swiper grabCursor={true}
                             effect={"creative"}
                             creativeEffect={{
                                 prev: {
-                                    shadow: true,
-                                    translate: ["-125%", 0, -800],
-                                    rotate: [0, 0, -90],
+                                    shadow: false,
+                                    translate: ["-55%", 0, -800],
+                                    rotate: [0, 0, -0],
                                 },
                                 next: {
-                                    shadow: true,
-                                    translate: ["125%", 0, -800],
-                                    rotate: [0, 0, 90],
+                                    shadow: false,
+                                    translate: ["55%", 0, -800],
+                                    rotate: [0, 0, 0],
                                 },
                             }}
                             breakpoints={{
@@ -76,26 +45,55 @@ export function Operation() {
                             }}
                             modules={[EffectCreative]}
                             className="mySwiper">
-                            {dataCardsOperation.map(item => {
-                                return (
-                                    <SwiperSlide>
-                                        <CardOperation
-                                            key={item.id}
-                                            number={item.id.toString()}
-                                            content={item.content}
-                                        />
-                                    </SwiperSlide>
-                                )
-                            })}
+
+                            <SwiperSlide key={1}>
+                                <CardOperation
+                                    key={1}
+                                    number={"2"}
+                                    title={"Mil Vidas Impactadas"}
+                                    description={"Nossos ações afirmativas beneficiaram mais de 2.000 crianças, jovens e adultos."}
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide key={2}>
+                                <CardOperation
+                                    key={2}
+                                    number={10}
+                                    title={"Ações Desenvolvidas"}
+                                    description={"Com mais de 10 atividades culturais idealizadas e realizadas pela associação."}
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide key={3}>
+                                <CardOperation
+                                    key={3}
+                                    number={50}
+                                    title={"Pessoas Participantes"}
+                                    description={"Com mais de 50 pessoas membras e parceiras que constroem nossa Moviafro."}
+                                />
+                            </SwiperSlide>
+                            <SwiperSlide key={4}>
+                                <CardOperation
+                                    key={4}
+                                    number={8}
+                                    title={"Anos de Existência"}
+                                    description={"Uma trajetória que testemunha nosso compromisso com nossa missão ancestral."}
+                                />
+                            </SwiperSlide>
                         </Swiper>
                     </div>
-                    <h3>Os talentos certos,
-                        para os projetos certos,
-                        no lugar certo.</h3>
+                    {/* <h3>{t("operation.subtitle")}</h3>
                     <div className={styles.buttonsSection}>
-                        <a href="https://ollo.is/br/hire/"><button className={styles.buttonBackground}>Quero contratar</button></a>
-                        <a href="https://ollo.is/br/in/"><button className={styles.buttonHasBorder}>Quero fazer parte</button></a>
-                    </div>
+                        <PopupButton
+                            id={t("button.hireLang")}
+                            className={styles.buttonBackground}>
+                            {t("button.hire")}
+                        </PopupButton>
+
+                        <PopupButton
+                            id={t("button.inLang")}
+                            className={styles.buttonHasBorder}>
+                            {t("button.in")}
+                        </PopupButton>
+                    </div> */}
                 </article>
             </section>
         )
@@ -104,25 +102,59 @@ export function Operation() {
         return (
             <section className={styles.operation} id="operation">
                 <article className={styles.content}>
-                    <h2>Veja <span>como funciona.</span></h2>
-                    <div className={styles.cardsSectionOperation}>
-                        {dataCardsOperation.map(item => {
-                            return (
-                                <CardOperation
-                                    key={item.id}
-                                    number={item.id.toString()}
-                                    content={item.content}
-                                />
-                            )
-                        })}
+                    <div className={styles.title}>
+                        <h2>Nosso Impacto<span><br />Compromisso Ancestral</span></h2>
+
                     </div>
-                    <h3>Os talentos certos,
-                        para os projetos certos,
-                        no lugar certo.</h3>
-                    <div className={styles.buttonsSection}>
-                        <button className={styles.buttonBackground}>Quero contratar</button>
-                        <button className={styles.buttonHasBorder}>Quero fazer parte</button>
-                    </div>
+                    <motion.div className={styles.cardsSectionOperation} initial={{ opacity: 0, scale: 0, x: 500, y: -50 }} whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }} transition={{ duration: 0.6 }}>
+
+                        <CardOperation
+                            key={1}
+                            number={2}
+                            title={"Mil Vidas Impactadas"}
+                            description={"Nossos ações afirmativas beneficiaram mais de 2.000 crianças, jovens e adultos."}
+                        />
+
+
+                        <CardOperation
+                            key={2}
+                            number={10}
+                            title={"Ações Desenvolvidas"}
+                            description={"Com mais de 10 atividades culturais idealizadas e realizadas pela associação."}
+                        />
+
+                        <CardOperation
+                            key={3}
+                            number={50}
+                            title={"Pessoas Participantes"}
+                            description={"Com mais de 50 pessoas membras e parceiras que constroem nossa Moviafro."}
+                        />
+
+                        <CardOperation
+                            key={4}
+                            number={8}
+                            title={"Anos de Existência"}
+                            description={"Uma trajetória que testemunha nosso compromisso com nossa missão ancestral."}
+                        />
+
+                    </motion.div>
+                    {/* <h3>{t("operation.subtitle")}</h3>
+                    <motion.div className={styles.buttonsSection} initial={{ opacity: 0, scale: 0, x: -500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>  */}
+                    {/* <a href="https://ollo.is/br/hire/" target="_blank"><motion.button className={styles.buttonBackground} initial={{ opacity: 0, scale: 0, x: -500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>Quero contratar</motion.button></a>
+                        <a href="https://ollo.is/br/in/" target="_blank"><motion.button className={styles.buttonHasBorder} initial={{ opacity: 0, scale: 0, x: 500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>Quero fazer parte</motion.button></a> */}
+                    {/* 
+                        <PopupButton
+                            id={t("button.hireLang")}
+                            className={styles.buttonBackground} >
+                            {t("button.hire")}
+                        </PopupButton>
+
+                        <PopupButton
+                            id={t("button.inLang")}
+                            className={styles.buttonHasBorder} >
+                            {t("button.in")}
+                        </PopupButton>
+                    </motion.div> */}
                 </article>
             </section>
         )

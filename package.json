@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.0.8",
+    "adinkra-icons": "^1.1.2",
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
-    "swiper": "^9.2.4"
+    "swiper": "^9.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

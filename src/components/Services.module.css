@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.container {
+    padding-bottom: 10rem;
+}
+
 .services::after {
     content: '';
     height: 100%;
@@ -36,45 +40,110 @@
 .content {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0;
 }
 
 .content .description {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 3rem;
-    margin: 6.5rem 10rem 0;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 6.5rem 0 0 16rem;
 }
 
+/* .pattern {
+    position: relative;
+    right: 0;
+    margin: 0;
+    width: 60%;
+    margin-bottom: 2rem;
+} */
+
+/* .pattern {
+    animation-name: example;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+} */
+
+/* @keyframes example {
+    25% {
+        color: #0908082a;
+        left: 0px;
+    }
+
+    0% {
+        color: #0908082a;
+        left: 200px;
+    }
+
+} */
+
 .content .description h2 {
-    width: 40%;
-    flex-flow: row wrap;
-    flex-grow: 2;
+    /* width: 40%; */
+    /* flex-flow: row wrap;
+    flex-grow: 2; */
     /* talvez esse flex não sirva */
     color: var(--gray-700);
     font-weight: 500;
     font-size: 3rem;
+    line-height: 150%;
 }
 
 .content .description span {
     color: var(--blue-400);
-    font-weight: 700;
+    font-size: 3rem;
 }
 
-.content .description p {
-    width: 60%;
+/* .content .description p {
+    min-width: 10%;
     color: var(--gray-700);
     font-weight: 400;
     line-height: 150%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color: var(--blue-400);
+} */
+
+.paragraph2 p {
+    min-width: 10%;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 150%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color: var(--blue-400);
+    text-align: center;
 }
+
+.paragraph2 {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .paragraph {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-items: center;
+} */
+
+/* .line {
+    margin-left: 2rem;
+    height: 200px;
+    border-right: 5px solid var(--blue-400);
+} */
 
 .cardsSection {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: flex-start;
     gap: 4rem;
-    margin: 0 10rem 0 0;
+    margin: 0 10rem;
 }
 
 .cards {
@@ -85,7 +154,21 @@
 }
 
 .illustration {
-    width: 50%;
+    width: 40%;
+    transform: rotate(-1.4deg);
+    margin-bottom: 2rem;
+}
+
+.illustration2,
+.illustration4 {
+    display: inline;
+    width: 45%;
+    transform: rotate(-1.4deg);
+    margin-top: 2rem;
+}
+
+.illustration3 {
+    display: none;
 }
 
 @media (max-width: 1280px) and (min-width: 1121px) {
@@ -95,41 +178,76 @@
 }
 
 @media (max-width: 1120px) {
+    .content {
+        margin: 3rem 3rem 0 3rem;
+    }
+
     .content .description {
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 2rem;
-        margin: 3rem 2rem 0 2rem;
-    }
-
-    .content .description p {
-        font-size: 16px;
-    }
-
-    .content .description h2,
-    .content .description p {
+        margin: 0;
         width: 100%;
     }
+
+    .content .description h2 {
+        line-height: 125%;
+    }
+
+    .content .description p {
+        font-size: 1rem;
+    }
+
+    /* .content .description h2,
+    .content .description p {
+        width: 100%;
+    } */
+
+    .paragraph2 p {
+        min-width: 20%;
+    }
+
+    .paragraph2 {
+        /* width: 100%; */
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin: 2rem 0 0 0;
+    }
+
 
     .cardsSection {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 4rem;
+        gap: 0rem;
+        margin: 0 1rem;
+        padding: 0 2rem 0 0;
     }
 
     .cards {
-        gap: 2.5rem;
-        margin: 3rem 2rem 0 2rem;
-    }
-
-    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 0rem 2rem 0 2rem;
         width: 100%;
     }
 
     .illustration {
-        width: 85%;
+        width: 100%;
+    }
+
+    .illustration2 {
+        display: none;
+    }
+
+    .illustration3,
+    .illustration4 {
+        display: inline;
+        width: 100%;
+        transform: rotate(0);
+        margin-top: -2rem;
     }
 }
 

@@ -15,31 +15,29 @@
 .container h2 {
     font-weight: 500;
     font-size: 3rem;
-    line-height: 117%;
-    color: var(--black);
+    line-height: 150%;
+    color: var(--gray-700);
     margin: 0 10rem;
-    width: 50%;
 }
 
 .container span {
     color: var(--blue-400);
     font-weight: 700;
+    font-size: 3rem;
 }
 
 .content {
     display: flex;
-    gap: 1.5rem;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     color: var(--pink);
 }
 
 .cardsTalents {
     display: flex;
-    align-items:center;
-    gap: 3rem;
-    padding-bottom: 5rem;
-    border-bottom: 0.5px solid var(--blue-150);
+    align-items: center;
+    /* padding-bottom: 5rem;
+    border-bottom: 0.5px solid var(--blue-150); */
 }
 
 @media (max-width: 1280px) and (min-width: 1121px) {
@@ -50,7 +48,7 @@
 
 @media (max-width: 1120px) {
     .talents {
-        padding: 4rem 2rem 0;
+        padding: 3rem 2rem 0;;
     }
 
     .container {
@@ -61,18 +59,10 @@
     }
     
     .container h2 {
-        margin: 0;
+        margin: 0 1rem;
+        line-height: 125%;
         width: 100%;
     }
 
-    .cardsTalents {
-        display: flex;
-        gap: 3rem;
-        padding-bottom: 2rem;
-        border-bottom: 0.5px solid var(--blue-150);
-    }
     
 }
-
-/* margem adequada pra mobile
-margin: 3rem 4rem 0 4rem; */

@@ -26,10 +26,10 @@
 .header nav ul li a {
     text-decoration: none;
     color: var(--white);
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 800;
     transition: all 250ms linear 0s;
 }
 
@@ -38,7 +38,7 @@
     transition: 100ms;
 }
 
-.header nav ul li a {
+.header li {
     position: relative;
     animation-name: menu;
     animation-duration: 1s;
@@ -47,6 +47,29 @@
 
 .menuToggle {
     display: none;
+}
+
+.navMobile {
+    display: none;
+}
+
+.selectMobile {
+    display: none;
+}
+
+.buttonHasBorder {
+    border-radius: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--white);
+    padding: 0.1rem 2em;
+    cursor: pointer;
+    border: 2px solid var(--white);
+    background: var(--blue-200);
+    letter-spacing: 1px;
 }
 
 @keyframes menu {
@@ -78,11 +101,16 @@
 
 @media (max-width: 630px) {
     .container {
+        display: flex;
         flex-direction: column;
         text-align: center;
     }
 
     .menuToggle {
+        display: block;
+    }
+
+    .selectMobile {
         display: block;
     }
 }
@@ -99,6 +127,15 @@
         padding: 0.75rem 0 0 2rem;
     }
 
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
     .menuSection nav {
         display: none;
     }
@@ -106,6 +143,10 @@
     .menuToggle {
         display: block;
         margin-right: 40px;
+    }
+
+    .selectMobile {
+        display: block;
     }
 
     /*Fullscreen*/
@@ -117,7 +158,6 @@
         height: 100vh;
         background: var(--blue-600);
         z-index: 10;
-        /*camada acima, evitar o scrool dos itens a baixo*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -153,5 +193,16 @@
         justify-content: center;
         padding: 0rem;
         font-size: 1.6rem;
+    }
+
+    .navMobile {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .buttonDesk {
+        display: none;
     }
 }

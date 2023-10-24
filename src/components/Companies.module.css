@@ -15,33 +15,26 @@
 .container h2 {
     font-weight: 500;
     font-size: 3rem;
-    line-height: 117%;
-    color: var(--black);
+    line-height: 150%;
+    color: var(--gray-700);
     margin: 0 10rem;
-    width: 60%;
 }
 
 .container span {
     color: var(--blue-400);
     font-weight: 700;
+    font-size: 3rem;
 }
 
 .logoCompanies {
     display: flex;
     justify-content: center;
+    margin: 3rem 0 10rem;
 }
 
 .logoCompanies img {
     width: 78%;
 }
-
-/* .companies {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 60%;
-    gap: 6rem 1rem;
-} */
 
 @media (max-width: 1280px) and (min-width: 1121px) {
     .content {
@@ -57,14 +50,23 @@
     .container {
         padding: 0;
     }
-    
+
     .container h2 {
-        margin: 0;
-        width: 100%;
+        margin: 0 1rem;
+        line-height: 125%;
+    }
+
+    .logoCompanies {
+        display: flex;
+        justify-content: baseline;
+        overflow-x: auto;
+        padding: 0 3rem;
+        margin: 4rem 0 10rem;
     }
 
     .logoCompanies img {
-        width: 100%;
+        width: 70rem;
+        margin: 0 0 2rem 55rem;
     }
-    
+
 }

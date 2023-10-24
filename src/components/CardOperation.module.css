@@ -19,6 +19,7 @@
     /* top: 1%; */
     text-align: center;
     margin-top: -5rem;
+    outline: 0.5rem solid var(--blue-500);
 }
 
 .container {
@@ -27,11 +28,13 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    background: var(--white);
+    background: var(--blue-500);
     box-shadow: 0px 1.87701px 14.0775px rgba(0, 0, 0, 0.15);
     border-radius: 7.50802px;
     padding: 2rem;
     height: 338px;
+    max-width: 30rem;
+    border-top: 0.5rem solid var(--blue-400);
 }
 
 .container h4 {
@@ -46,7 +49,7 @@
 .container p {
     text-align: center;
     text-transform: uppercase;
-    color: var(--gray-400);
+    color: var(--gray-500);
     font-weight: 700;
     line-height: 171%;
     font-size: 0.875rem;

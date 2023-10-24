@@ -1,13 +1,14 @@
 import styles from './Companies.module.css';
-import olloLogosCompanies from './../assets/olloLogosCompanies.png';
+import partnessMoviafro from './../assets/partness/partness-moviafro.svg';
+import { motion } from 'framer-motion';
 
 export function Companies() {
     return (
         <section className={styles.companies} id="clients">
             <article className={styles.container}>
-                <h2>Veja as empresas que já se <span>conectaram com a gente</span> e com os nossos talentos.</h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Nossos Parceiros<br/><span>Somos Ubuntu</span></motion.h2>
                 <div className={styles.logoCompanies}>
-                    <img src={olloLogosCompanies} alt="Ollo Logo Companies" />
+                    <img src={partnessMoviafro} alt="Parceiros da Moviafro" />
                 </div>
             </article>
         </section>

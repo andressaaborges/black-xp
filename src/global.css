@@ -9,14 +9,14 @@
     --gray-500: #5a5a5a;
     --gray-600: #4d4d4d;
     --gray-700: #333;
-    --blue-100: #9ceded;
+    --blue-100: #a7ed9c;
     --blue-150: #24bfbf;
     --blue-200: #23bebe;
     --blue-300: #00a3ff;
-    --blue-400: #7a81ff;
-    --blue-500: #4568f9;
-    --blue-600: #4048ce;
-    --linear-gradient: linear-gradient(304.03deg, #FF6B8E 18.78%, #7C83FF 94.69%);
+    --blue-400: #DA261D;
+    --blue-500: #F7C300;
+    --blue-600: #264918;
+    --linear-gradient: linear-gradient(304.03deg, #569E3A 18.78%, #F7C300 94.69%);
 }
 
 * {
@@ -41,4 +41,34 @@ button {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+
+span {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    background: transparent;
+    content: url(./src/assets/caret-circle-up-light.svg);
+    color: transparent;
+}
+
+details[open] summary:after {
+    background: transparent;
+    content: url(./src/assets/caret-circle-down-light.svg);;
+    color: transparent;
+}
+
+summary{
+    list-style-type: '';
+}
+
+details[open] summary{
+    list-style-type: '';
 }

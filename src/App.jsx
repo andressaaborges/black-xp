@@ -21,12 +21,11 @@ function App() {
           <Home />
           <Services />
           <Operation />
+          <Testimonials />
           <Attributes />
           <Talents />
           <Companies />
-          <Testimonials />
           <Press />
-          <Faq />
         </main>
       </div>
       <Footer/>
