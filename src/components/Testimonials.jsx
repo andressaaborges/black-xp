@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper';
 import missAfro from './../assets/actions/missAfroGeisaBorges.jpeg';
-import emmn from './../assets/actions/encontro-moviafro-de-mulheres-negras.jpeg';
+import emmn from './../assets/actions/encontroMoviafroDeMulheresNegras.jpeg';
 import missaAfro from './../assets/actions/missaAfro.jpg';
 import narrativasNegras from './../assets/actions/narrativasNegras.jpeg';
 import festivalMusicasNegrasImportam from './../assets/actions/festivalMusicasNegrasImportam.jpg';
