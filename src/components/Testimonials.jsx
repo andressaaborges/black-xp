@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper';
-import missAfro from './../assets/actions/missAfroGeisaBorges.jpg';
+import missAfro from './../assets/actions/missAfroGeisaBorges.jpeg';
 import emmn from './../assets/actions/encontro-moviafro-de-mulheres-negras.jpg';
 import missaAfro from './../assets/actions/missaAfro.jpg';
 import narrativasNegras from './../assets/actions/narrativasNegras.jpeg';
