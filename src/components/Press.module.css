@@ -102,6 +102,10 @@
         line-height: 125%;
     }
 
+    .container span {
+        font-size: 2rem;
+    }
+
     .content {
         margin: 0;
     }

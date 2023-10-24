@@ -56,6 +56,10 @@
         line-height: 125%;
     }
 
+    .container span {
+        font-size: 2rem;
+    }
+
     .logoCompanies {
         display: flex;
         justify-content: baseline;

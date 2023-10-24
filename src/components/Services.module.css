@@ -195,6 +195,10 @@
         line-height: 125%;
     }
 
+    .content .description span {
+        font-size: 2rem;
+    }
+
     .content .description p {
         font-size: 1rem;
     }

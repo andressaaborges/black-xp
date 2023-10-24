@@ -115,6 +115,10 @@
         padding-bottom: 3rem;
         margin: 0 1rem;
     }
+
+    .content span {
+        font-size: 2rem;
+    }
     
     .content h3 {
         margin: 0;

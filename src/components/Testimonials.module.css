@@ -69,6 +69,10 @@
         line-height: 125%;
     }
 
+    .testimonials span {
+        font-size: 2rem;
+    }    
+
     .testimonials {
         padding: 3rem 2rem 0;
     }

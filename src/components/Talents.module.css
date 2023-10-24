@@ -64,5 +64,9 @@
         width: 100%;
     }
 
+    .container span {
+        font-size: 2rem;
+    }
+
     
 }
