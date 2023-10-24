@@ -1,6 +1,6 @@
 import { CardTalents } from './CardTalents';
 import styles from './Talents.module.css';
-import personValConceicao from './../assets/persons/valConceicao.jpg';
+import personValConceicao from './../assets/persons/val-conceicao.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
