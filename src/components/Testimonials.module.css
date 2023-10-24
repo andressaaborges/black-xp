@@ -73,6 +73,10 @@
         padding: 3rem 2rem 0;
     }
 
+    .content p {
+        font-size: 1.2rem;
+    }
+
     .cardTestimonials img {
         width: 11.85rem;
         height: 11.85rem;

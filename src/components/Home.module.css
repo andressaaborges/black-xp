@@ -175,7 +175,7 @@
 
     .titles h1,
     .titles span {
-        width: 100%;
+        width: 90%;
     }
 
     .contentDifferentText {
@@ -185,7 +185,7 @@
 
     .content h5 {
         margin: 2rem 2rem 0 2rem;
-        width: 100%;
+        width: 90%;
     }
 
     .buttonsSection {

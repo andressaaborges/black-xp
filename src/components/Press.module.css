@@ -74,6 +74,7 @@
     border: 2px solid var(--blue-600);
     background: transparent;
     letter-spacing: 1px;
+    width: max-content;
 }
 
 @media (max-width: 1280px) and (min-width: 1121px) {
@@ -86,18 +87,15 @@
     .press {
         padding: 3rem 2rem;
     }
-    
+
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 5rem;
-    }
-
-    .container {
         padding: 2rem 0;
     }
-    
+
     .container h2 {
         margin: 0 1rem;
         width: 100%;
@@ -110,5 +108,9 @@
 
     .news img {
         width: 10rem;
+    }
+
+    .news h3 {
+        text-align: left;
     }
 }

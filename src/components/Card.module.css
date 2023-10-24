@@ -63,4 +63,8 @@
         border-right: none;
         padding: 0 2rem 5rem 2rem;
     }
+
+    .content h3 {
+        line-height: 125%;
+    }
 }
