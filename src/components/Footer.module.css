@@ -140,13 +140,13 @@
 .contact p {
     font-weight: 400;
     font-size: 0.75rem;
-    line-height: 125%;
+    line-height: 115%;
 }
 
 .contact a {
     text-decoration: none;
     color: var(--white);
-    line-height: 125%;
+    line-height: 115%;
 }
 
 .social {

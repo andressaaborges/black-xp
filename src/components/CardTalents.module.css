@@ -39,7 +39,7 @@
 
 .container h1 {
     font-weight: 700;
-    line-height: 125%;
+    line-height: 115%;
     color: var(--blue-600);
     font-size: 1.9rem;
     padding-bottom: 0.5rem;
@@ -57,7 +57,7 @@
 .container p {
     font-weight: 400;
     font-size: 0.79rem;
-    line-height: 125%;
+    line-height: 115%;
     color: var(--black);
     text-align: center;
 }
