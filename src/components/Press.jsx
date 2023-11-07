@@ -9,7 +9,15 @@ import acordaCidade from './../assets/press/acorda-cidade-parceiro.svg';
 
 const linkNews = [
     {
-        id: 220923,
+        id: 231106,
+        data: {
+            logo: "https://digaifeira.com.br/wp-content/uploads/2022/01/logomarca-com-boneco2.png",
+            title: "Moviafro realiza Novembro Negro.",
+            url: "https://digaifeira.com.br/moviafro-realiza-novembro-negro/"
+        },
+    },
+    {
+        id: 230922,
         data: {
             logo: "https://www.portal190.com.br/img/476988948298af3e58990b412247fc9c.png",
             title: "Moviafro representa o Movimento Negro Feirense em Brasília.",
@@ -17,7 +25,7 @@ const linkNews = [
         },
     },
     {
-        id: 280823,
+        id: 230828,
         data: {
             logo: "https://cache2net3.com/Repositorio/12002/Logo/Design%20sem%20nome%20-%202023-03-26T212652.329.webp",
             title: "Concurso Moviafro destaca beleza negra infantil.",
@@ -25,7 +33,7 @@ const linkNews = [
         },
     },
     {
-        id: 100823,
+        id: 230810,
         data: {
             logo: folhaDoEstado,
             title: "Moviafro promove primeira edição do Concurso Miss & Mister Afro Infantil.",
@@ -33,7 +41,7 @@ const linkNews = [
         },
     },
     {
-        id: 130723,
+        id: 230713,
         data: {
             logo: acordaCidade,
             title: "Núcleo de Mulheres Negras realiza encontro no Julho das Pretas.",
@@ -41,7 +49,7 @@ const linkNews = [
         },
     },
     {
-        id: 200623,
+        id: 230620,
         data: {
             logo: acordaCidade,
             title: "Representatividade e dedicação: conheça a jovem de 15 anos eleita Miss Afro Feira 2023.",
@@ -49,7 +57,7 @@ const linkNews = [
         },
     },
     {
-        id: 100623,
+        id: 230623,
         data: {
             logo: folhaDoEstado,
             title: "Moradora do bairro Tomba é escolhida Miss Afro Feira de Santana 2023.",
@@ -57,7 +65,7 @@ const linkNews = [
         },
     },
     {
-        id: 310523,
+        id: 230531,
         data: {
             logo: "https://www.catureba.com.br/wp-content/uploads/2023/03/logo.png",
             title: "Com teatro lotado, Concurso Miss Afro Feira de Santana realiza final da 6ª edição.",
@@ -65,7 +73,7 @@ const linkNews = [
         },
     },
     {
-        id: 300523,
+        id: 230530,
         data: {
             logo: "https://atendimento.al.ba.gov.br/assets/img/logotipo-share.png",
             title: "Neusa Cadore aplaude Associação Cultural Moviafro, de Feira de Santana.",

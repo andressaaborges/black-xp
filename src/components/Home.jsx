@@ -6,14 +6,14 @@ import { motion } from 'framer-motion';
 export function Home() {
     return (
         <section className={styles.home} id="home">
-            <motion.img className={styles.olloLogo} src={olloStar} alt="Logo Ollo" whileInView={{
+            <motion.img className={styles.olloLogo} src={olloStar} alt="Lema: Levantemos uns aos outros" title="Lema: Levantemos uns aos outros" whileInView={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 270, 270, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
             }} />
             <article className={styles.content}>
                 <div className={styles.textImg}>
-                    <motion.img className={styles.afro} src={olloLogo} alt="Star Ollo" whileInView={{
+                    <motion.img className={styles.afro} src={olloLogo} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
                         scale: [1, 2, 2, 1, 1],
                         rotate: [0, 0, 270, 270, 0],
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],
