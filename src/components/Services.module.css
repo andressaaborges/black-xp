@@ -19,7 +19,7 @@
     transform-origin: left;
     transform: skewY(-4deg);
     width: 100%;
-    background: var(--white);
+    background: var(--blue-400);
 }
 
 .arrowDown {

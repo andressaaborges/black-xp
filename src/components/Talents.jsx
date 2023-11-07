@@ -1,6 +1,10 @@
 import { CardTalents } from './CardTalents';
 import styles from './Talents.module.css';
 import personValConceicao from './../assets/persons/val-conceicao.jpg';
+import personIvannide from './../assets/persons/ivannide-rodrigues-doutora-honoris-causa.jpg';
+import personNegraJho from './../assets/persons/negra-jhô.png';
+import personDanielPintto from './../assets/persons/prof-daniel-pintto.jpeg';
+import personChica from './../assets/persons/chica-do-pandeiro.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -11,64 +15,37 @@ const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
+            photo: personIvannide,
+            name: "Ivannide Rodrigues",
+            surname: "Santa Barbara",
+            companies: "Doutora Honoris Causa"
         },
     },
     {
         id: 2,
         talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
+            photo: personNegraJho,
+            name: "Negra",
+            surname: "Jhô",
+            companies: "Criadora do Instituto Kimundo"
         },
     },
     {
         id: 3,
         talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
+            photo: personDanielPintto,
+            name: "Daniel",
+            surname: "Pintto",
+            companies: "Professor e Escritor"
         },
     },
     {
         id: 4,
         talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
-        },
-    },
-    {
-        id: 5,
-        talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
-        },
-    },
-    {
-        id: 6,
-        talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
-        },
-    },
-    {
-        id: 7,
-        talent: {
-            photo: personValConceicao,
-            name: "Val",
-            surname: "Conceição",
-            companies: "Coordenador Geral Moviafro • Produtor Cultural"
+            photo: personChica,
+            name: "Chica",
+            surname: "do Pandeiro",
+            companies: "Referência do Samba na Bahia"
         },
     },
 ];
@@ -84,13 +61,17 @@ export function Talents() {
                         modules={[Navigation]}
                         navigation
                         breakpoints={{
+                            1920: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
                             1440: {
-                                slidesPerView: 3,
-                                spaceBetween: 20,
+                                slidesPerView: 4,
+                                spaceBetween: 10,
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 20,
+                                spaceBetween: 10,
                             },
                             640: {
                                 slidesPerView: 1,

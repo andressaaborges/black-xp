@@ -18,7 +18,7 @@
     -webkit-transform: skewY(-4deg);
     -ms-transform: skewY(-4deg);
     width: 100%;
-    background: var(--gray-200);
+    background:var(--blue-500);
 }
 
 .content {

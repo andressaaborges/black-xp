@@ -58,7 +58,7 @@ export function Footer() {
             {/* <hr className={styles.line} /> */}
             <div className={styles.containerSecond}>
                 <div className={styles.sectionButtons}>
-                    <h2>Estamos criando legados, <br />fazendo história. Seja Moviafro!</h2>
+                    <h2>Levantemos uns aos outros.<br />Seja Moviafro!</h2>
                     <button
                         className={styles.buttonBackground} >
                         Quero fazer parte

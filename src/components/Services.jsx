@@ -1,4 +1,3 @@
-import { CaretDown } from '@phosphor-icons/react';
 import styles from './Services.module.css';
 import valConceicao from './../assets/story/valConceicao.svg';
 import story2 from './../assets/story/story-2.svg';
@@ -35,12 +34,12 @@ export function Services() {
 
     return (
         <section className={styles.services} id="services">
-            <div className={styles.arrowDown}>
+            {/* <div className={styles.arrowDown}>
                 <CaretDown size={98} weight="fill" />
                 <div>
                     <CaretDown size={28} weight="light" />
                 </div>
-            </div>
+            </div> */}
             <article className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.description}>

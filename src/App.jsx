@@ -11,6 +11,7 @@ import { Testimonials } from './components/Testimonials';
 import { Press } from './components/Press';
 import { Faq } from './components/Faq';
 import { Footer } from './components/Footer';
+import { Actives } from './components/Actives';
 
 function App() {
   return (
@@ -24,11 +25,12 @@ function App() {
           <Testimonials />
           <Attributes />
           <Talents />
+          <Actives />
           <Companies />
           <Press />
         </main>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

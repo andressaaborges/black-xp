@@ -19,9 +19,9 @@ export function Home() {
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                     }} />
                     <div className={styles.titles}>
-                        <h1>Raízes de Resistência: 8 anos da Moviafro em Prol da Cultura Afro</h1>
+                        <h1>Oito anos da Moviafro em Prol da Cultura de Matriz Africana</h1>
                         {/* <h5 className={styles.h5Pt}>{t("home.description")}</h5> */}
-                        <h5 className={styles.h5En}>Celebrando a Herança Negra de Feira de Santana, Nosso Compromisso e Atuação na Luta Antirracista.</h5>
+                        <h5 className={styles.h5En}>Celebrando a Herança Negra, Nosso Compromisso e Atuação na Luta Antirracista em Feira de Santana.</h5>
                     </div>
                 </div>
                 {/* <motion.img className={styles.olloStar1} src={olloStar} alt="Star Ollo" whileInView={{
