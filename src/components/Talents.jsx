@@ -55,7 +55,7 @@ export function Talents() {
     return (
         <section className={styles.talents} id="talents">
             <article className={styles.container}>
-                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Nossas Inspirações<br /><span>Construindo em União</span></motion.h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Construindo em União<br /><span>Nossas Inspirações</span></motion.h2>
                 <div className={styles.content}>
                     <Swiper
                         modules={[Navigation]}

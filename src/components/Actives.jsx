@@ -84,7 +84,7 @@ export function Actives() {
     return (
         <section className={styles.actives} id="talents">
             <article className={styles.container}>
-                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Pessoas Atuantes<br /><span>Mantendo o Movimento</span></motion.h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Mantendo o Movimento<br /><span>Pessoas Atuantes</span></motion.h2>
                 <div className={styles.content}>
                     <Swiper
                         modules={[Navigation]}

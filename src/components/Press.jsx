@@ -86,7 +86,7 @@ export function Press() {
     return (
         <section className={styles.press} id="press">
             <article className={styles.container}>
-                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Moviafro na Imprensa<br /><span>Acompanhe as Notícias</span></motion.h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Acompanhe as Notícias<br /><span>Moviafro na Imprensa</span></motion.h2>
                 <div className={styles.content}>
                     <Swiper
                         modules={[Navigation]}

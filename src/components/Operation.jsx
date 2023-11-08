@@ -12,7 +12,7 @@ export function Operation() {
         return (
             <section className={styles.operation} id="operation">
                 <article className={styles.content}>
-                    <h2>Nosso Impacto<span><br />Compromisso Ancestral</span></h2>
+                    <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>
                     <div className={styles.cardsSectionOperation}>
                         <Swiper grabCursor={true}
                             effect={"creative"}
@@ -103,7 +103,7 @@ export function Operation() {
             <section className={styles.operation} id="operation">
                 <article className={styles.content}>
                     <div className={styles.title}>
-                        <h2>Nosso Impacto<span><br />Compromisso Ancestral</span></h2>
+                        <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>
 
                     </div>
                     <motion.div className={styles.cardsSectionOperation} initial={{ opacity: 0, scale: 0, x: 500, y: -50 }} whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }} transition={{ duration: 0.6 }}>

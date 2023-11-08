@@ -20,7 +20,7 @@ import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
 export function Testimonials() {
     return (
         <section className={styles.testimonials} id="testimonials">
-            <h2>Nossas Ações<span><br />Transformação Social</span></h2>
+            <h2>Transformação Social<span><br />Nossas Ações</span></h2>
             <Swiper
                 slidesPerView={"auto"}
                 spaceBetween={10}
