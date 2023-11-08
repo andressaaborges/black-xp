@@ -37,6 +37,7 @@ const dataCardsAttributes = [
     {
         id: 5,
         content: {
+
             title: "Núcleo Moviafro de Apoio ao Culto Afro-Brasileiro • NUMACAB",
             role: "Coordenadora: Ekede Patrícia Pinheiro",
             text: "Criado com o propósito de fortalecer o combate à intolerância religiosa e oferecer suporte aos centros de culto africano, em colaboração com as organizações já existentes. Além disso, tem como missão orientar adeptos e simpatizantes das religiões afro-brasileiras em uma ampla gama de temas, abrangendo desde questões de Racismo Religioso, Regularização Fundiária e Inventário, Imunidade Tributária, até Antirracismo, Associativismo e Cooperativismo, Empreendedorismo, Previdência, Estatuto da Igualdade Racial, Saúde da População Negra e Acesso aos direitos e à justiça."
