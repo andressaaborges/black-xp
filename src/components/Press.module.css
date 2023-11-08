@@ -85,7 +85,7 @@
 
 @media (max-width: 1120px) {
     .press {
-        padding: 3rem 2rem 0;
+        padding: 3rem 2rem;
     }
 
     .container {
@@ -93,7 +93,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 5rem;
-        padding: 2rem 0 0;
+        padding: 2rem 0;
     }
 
     .container h2 {
@@ -116,5 +116,8 @@
 
     .news h3 {
         text-align: left;
+        -webkit-hyphens: manual;
+        -ms-hyphens: manual;
+        hyphens: manual;
     }
 }

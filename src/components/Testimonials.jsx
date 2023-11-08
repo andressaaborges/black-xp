@@ -9,13 +9,13 @@ import missaAfro from './../assets/actions/missaAfro.jpg';
 import narrativasNegras from './../assets/actions/narrativasNegras.jpeg';
 import festivalMusicasNegrasImportam from './../assets/actions/festivalMusicasNegrasImportam.jpg';
 import ensaiosDoMicareta from './../assets/actions/ensaiosDoMicareta.jpg';
-import projetoNovembroNegro from './../assets/actions/projeto-novembro-negro.jpg';
+import projetoNovembroNegro from './../assets/actions/novembroNegro.jpg';
 import misterAfro from './../assets/actions/misterAfro.jpg';
 import cortejoMoviafro from './../assets/actions/cortejoMoviafro.jpg';
 import projetoEnemgrecer from './../assets/actions/projeto-enemgrecer.png';
 import circuitoMoviafro from './../assets/actions/circuitoMoviafro.jpg';
 import cortejoPelaPaz from './../assets/actions/cortejoPelaPaz.jpg';
-import missPlusSize from './../assets/actions/miss-plus-size.webp';
+import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
 
 export function Testimonials() {
     return (

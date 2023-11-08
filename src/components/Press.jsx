@@ -52,7 +52,7 @@ const linkNews = [
         id: 230620,
         data: {
             logo: acordaCidade,
-            title: "Representatividade e dedicação: conheça a jovem de 15 anos eleita Miss Afro Feira 2023.",
+            title: "Representati-vidade e dedicação: conheça a jovem de 15 anos eleita Miss Afro Feira 2023.",
             url: "https://www.acordacidade.com.br/noticias/feira-de-santana/representatividade-e-dedicacao-conheca-a-jovem-de-15-anos-eleita-miss-afro-feira-2023/"
         },
     },
@@ -108,6 +108,6 @@ export function Press() {
                     </Swiper>
                 </div>
             </article>
-        </section >
+        </section>
     )
 }
