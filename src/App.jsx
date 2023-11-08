@@ -12,6 +12,7 @@ import { Press } from './components/Press';
 import { Faq } from './components/Faq';
 import { Footer } from './components/Footer';
 import { Actives } from './components/Actives';
+import { Founders } from './components/Founders';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <main>
           <Home />
           <Services />
+          <Founders />
           <Operation />
           <Testimonials />
           <Attributes />

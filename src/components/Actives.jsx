@@ -1,6 +1,6 @@
 import { CardTalents } from './CardTalents';
 import styles from './Actives.module.css';
-import personValConceicao from './../assets/persons/val-conceicao.jpg';
+import personValConceicao from './../assets/persons/valConceicao.jpeg';
 import personDionorina from './../assets/persons/dionorina.jpg';
 import personGilsam from './../assets/persons/gilsam.jpg';
 import personHelyPedreira from './../assets/persons/hely-pedreira.jpg';

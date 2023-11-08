@@ -1,6 +1,6 @@
 import { CardTalents } from './CardTalents';
 import styles from './Talents.module.css';
-import personValConceicao from './../assets/persons/val-conceicao.jpg';
+import personValConceicao from './../assets/persons/valConceicao.jpeg';
 import personIvannide from './../assets/persons/ivannide-rodrigues-doutora-honoris-causa.jpg';
 import personNegraJho from './../assets/persons/negra-jhô.png';
 import personDanielPintto from './../assets/persons/prof-daniel-pintto.jpeg';
@@ -84,7 +84,7 @@ export function Talents() {
                             {dataCardsTalents.map(item => {
                                 return (
                                     <SwiperSlide key={item.id}>
-                                        <CardTalents
+                                        <CardTalents 
                                             key={item.id}
                                             talent={item.talent}
                                             role={item.companies}

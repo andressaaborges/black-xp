@@ -43,7 +43,7 @@ export function Services() {
             <article className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.description}>
-                        <h2>Nossa História<br /><span>Resistência Viva</span></h2>
+                        <h2>Resistência Viva<br /><span>Nossa História</span></h2>
                         {/* <div className={styles.paragraph}> */}
                         {/* <motion.img initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -70,7 +70,7 @@ export function Services() {
                         <p className={styles.cardParagraph2}><strong>2018</strong></p>
                     </div>
                     <div className={styles.cardsSection}>
-                    <img className={styles.illustration3} src={story2} alt="História da Moviafro" title="História da Moviafro" />
+                        <img className={styles.illustration3} src={story2} alt="História da Moviafro" title="História da Moviafro" />
                         <div className={styles.cards}>
                             <Card hasBorderLeft={false}
                                 key={dataCards[1].id}
@@ -96,6 +96,7 @@ export function Services() {
                     <div className={styles.paragraph2}>
                         <p><strong>E CONTINUA...</strong></p>
                     </div>
+
                 </div>
             </article>
         </section>
