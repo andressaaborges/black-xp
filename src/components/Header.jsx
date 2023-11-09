@@ -27,7 +27,6 @@ export function Header() {
                             <li><a href="#inspirations">Pessoas</a></li>
                             <li><a href="#partness">Parceiros</a></li>
                             <li><a href="#press">Imprensa</a></li>
-                            
                         </ul>
                     </nav>
                 </div>

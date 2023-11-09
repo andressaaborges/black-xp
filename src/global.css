@@ -55,20 +55,20 @@ summary::-webkit-details-marker {
 
 summary:after {
     background: transparent;
-    content: url(./src/assets/caret-circle-up-light.svg);
+    content: url(../src/assets/caret-circle-up-light.svg);
     color: transparent;
 }
 
 details[open] summary:after {
     background: transparent;
-    content: url(./src/assets/caret-circle-down-light.svg);
+    content: url(../src/assets/caret-circle-down-light.svg);
     color: transparent;
 }
 
-summary{
+summary {
     list-style-type: '';
 }
 
-details[open] summary{
+details[open] summary {
     list-style-type: '';
 }
