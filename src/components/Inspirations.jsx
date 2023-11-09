@@ -1,5 +1,5 @@
 import { CardTalents } from './CardTalents';
-import styles from './Talents.module.css';
+import styles from './Inspirations.module.css';
 import personValConceicao from './../assets/persons/valConceicao.jpeg';
 import personIvannide from './../assets/persons/ivannide-rodrigues-doutora-honoris-causa.jpg';
 import personNegraJho from './../assets/persons/negra-jhô.png';
@@ -50,10 +50,10 @@ const dataCardsTalents = [
     },
 ];
 
-export function Talents() {
+export function Inspirations() {
 
     return (
-        <section className={styles.talents} id="talents">
+        <section className={styles.talents} id="inspirations">
             <article className={styles.container}>
                 <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Construindo em União<br /><span>Nossas Inspirações</span></motion.h2>
                 <div className={styles.content}>

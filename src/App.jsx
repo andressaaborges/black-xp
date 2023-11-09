@@ -1,18 +1,18 @@
-import { Attributes } from './components/Attributes';
+import { Cores } from './components/Cores';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
-import { Operation } from './components/Operation';
-import { Services } from './components/Services';
+import { Impact } from './components/Impact';
+
 import styles from './App.module.css';
 import './global.css';
-import { Talents } from './components/Talents';
-import { Companies } from './components/Companies';
-import { Testimonials } from './components/Testimonials';
+import { Inspirations } from './components/Inspirations';
+import { Partness } from './components/Partness';
+import { Actions } from './components/Actions';
 import { Press } from './components/Press';
-import { Faq } from './components/Faq';
 import { Footer } from './components/Footer';
 import { Actives } from './components/Actives';
 import { Founders } from './components/Founders';
+import { History } from './components/History';
 
 function App() {
   return (
@@ -21,14 +21,14 @@ function App() {
       <div className={styles.wrapper}>
         <main>
           <Home />
-          <Services />
+          <History />
           <Founders />
-          <Operation />
-          <Testimonials />
-          <Attributes />
-          <Talents />
+          <Impact />
+          <Actions />
+          <Cores />
+          <Inspirations />
           <Actives />
-          <Companies />
+          <Partness />
           <Press />
         </main>
       </div>

@@ -1,16 +1,16 @@
 import { CardOperation } from './CardOperation';
-import styles from './Operation.module.css';
+import styles from './Impact.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
 import { motion } from 'framer-motion';
 
-export function Operation() {
+export function Impact() {
 
     if (window.innerWidth <= 1120) {
         return (
-            <section className={styles.operation} id="operation">
+            <section className={styles.operation} id="impact">
                 <article className={styles.content}>
                     <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>
                     <div className={styles.cardsSectionOperation}>
@@ -100,7 +100,7 @@ export function Operation() {
     }
     else {
         return (
-            <section className={styles.operation} id="operation">
+            <section className={styles.operation} id="impact">
                 <article className={styles.content}>
                     <div className={styles.title}>
                         <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>

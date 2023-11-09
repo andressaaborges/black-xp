@@ -1,4 +1,4 @@
-import styles from './Testimonials.module.css';
+import styles from './Actions.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,9 +17,9 @@ import circuitoMoviafro from './../assets/actions/circuitoMoviafro.jpg';
 import cortejoPelaPaz from './../assets/actions/cortejoPelaPaz.jpg';
 import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
 
-export function Testimonials() {
+export function Actions() {
     return (
-        <section className={styles.testimonials} id="testimonials">
+        <section className={styles.testimonials} id="actions">
             <h2>Transformação Social<span><br />Nossas Ações</span></h2>
             <Swiper
                 slidesPerView={"auto"}

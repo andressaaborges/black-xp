@@ -1,4 +1,4 @@
-import styles from './Services.module.css';
+import styles from './History.module.css';
 import valConceicao from './../assets/story/valConceicao.svg';
 import story2 from './../assets/story/story-2.svg';
 import story3 from './../assets/story/story-3.svg';
@@ -30,10 +30,10 @@ const dataCards = [
     },
 ];
 
-export function Services() {
+export function History() {
 
     return (
-        <section className={styles.services} id="services">
+        <section className={styles.services} id="history">
             {/* <div className={styles.arrowDown}>
                 <CaretDown size={98} weight="fill" />
                 <div>

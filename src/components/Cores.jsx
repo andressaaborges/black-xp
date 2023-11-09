@@ -1,4 +1,4 @@
-import styles from './Attributes.module.css';
+import styles from './Cores.module.css';
 import { CardAttributes } from './CardAttributes';
 
 const dataCardsAttributes = [
@@ -69,9 +69,9 @@ const dataCardsAttributes = [
     },
 ];
 
-export function Attributes() {
+export function Cores() {
     return (
-        <section className={styles.attributes} id="attributes">
+        <section className={styles.attributes} id="cores">
             <article className={styles.container}>
                 <h2>Aquilombar é Fortalecer<span><br />Nossos Núcleos</span></h2>
                 <div className={styles.content}>

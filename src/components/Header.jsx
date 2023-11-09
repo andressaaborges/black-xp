@@ -19,13 +19,15 @@ export function Header() {
                     <nav>
                         <ul>
                             <li><a href="#home">Início</a></li>
-                            <li><a href="#services">História</a></li>
-                            <li><a href="#operation">Impacto</a></li>
-                            <li><a href="#talents">Pessoas</a></li>
-                            <li><a href="#clients">Parceiros</a></li>
-                            <li><a href="#testimonials">Núcleos</a></li>
+                            <li><a href="#history">História</a></li>
+                            <li><a href="#founders">Fundadores</a></li>
+                            <li><a href="#impact">Impacto</a></li>
+                            <li><a href="#actions">Ações</a></li>
+                            <li><a href="#cores">Núcleos</a></li>
+                            <li><a href="#inspirations">Pessoas</a></li>
+                            <li><a href="#partness">Parceiros</a></li>
                             <li><a href="#press">Imprensa</a></li>
-                            <li><a href="#faq">Ações</a></li>
+                            
                         </ul>
                     </nav>
                 </div>
