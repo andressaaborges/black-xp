@@ -1,6 +1,5 @@
 import { CardTalents } from './CardTalents';
 import styles from './Inspirations.module.css';
-import personValConceicao from './../assets/persons/valConceicao.jpeg';
 import personIvannide from './../assets/persons/ivannide-rodrigues-doutora-honoris-causa.jpg';
 import personNegraJho from './../assets/persons/negra-jhô.png';
 import personDanielPintto from './../assets/persons/prof-daniel-pintto.jpeg';

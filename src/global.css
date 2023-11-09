@@ -38,7 +38,7 @@ body {
 body,
 input,
 button {
-    font-family: "Poppins", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
@@ -61,7 +61,7 @@ summary:after {
 
 details[open] summary:after {
     background: transparent;
-    content: url(./src/assets/caret-circle-down-light.svg);;
+    content: url(./src/assets/caret-circle-down-light.svg);
     color: transparent;
 }
 

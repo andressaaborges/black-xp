@@ -2,7 +2,6 @@ import styles from './History.module.css';
 import valConceicao from './../assets/story/valConceicao.svg';
 import story2 from './../assets/story/story-2.svg';
 import story3 from './../assets/story/story-3.svg';
-import pattern from './../assets/patterns/patterns-1.svg';
 import { Card } from './Card';
 import { motion } from "framer-motion";
 
