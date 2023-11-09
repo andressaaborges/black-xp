@@ -61,7 +61,7 @@ export function Inspirations() {
                         navigation
                         breakpoints={{
                             1920: {
-                                slidesPerView: 5,
+                                slidesPerView: 4,
                                 spaceBetween: 10,
                             },
                             1440: {
@@ -83,10 +83,9 @@ export function Inspirations() {
                             {dataCardsTalents.map(item => {
                                 return (
                                     <SwiperSlide key={item.id}>
-                                        <CardTalents 
+                                        <CardTalents
                                             key={item.id}
                                             talent={item.talent}
-                                            role={item.companies}
                                         />
                                     </SwiperSlide>
                                 )
