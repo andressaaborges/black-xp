@@ -1,7 +1,9 @@
 .cardAttributes {
     display: flex;
     flex-direction: column;
-    flex-basis: 20rem;
+    /* flex-basis: 20rem; */
+    width: 20rem;
+    margin: 2rem 0;
     gap: 1rem;
     background: var(--white);
     padding: 2rem;
@@ -35,6 +37,7 @@
     .cardAttributes {
         display: flex;
         flex-direction: column;
-        flex-basis: 0;
+        /* flex-basis: 0; */
+        margin: 2rem 0 5rem;
     }
 }

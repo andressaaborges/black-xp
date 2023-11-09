@@ -1,5 +1,9 @@
 import styles from './Cores.module.css';
 import { CardAttributes } from './CardAttributes';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import {Pagination } from 'swiper';
 
 const dataCardsAttributes = [
     {
@@ -74,18 +78,47 @@ export function Cores() {
         <section className={styles.attributes} id="cores">
             <article className={styles.container}>
                 <h2>Aquilombar é Fortalecer<span><br />Nossos Núcleos</span></h2>
+
                 <div className={styles.content}>
-                    {dataCardsAttributes.map(item => {
-                        return (
-                            <CardAttributes
-                                key={item.id}
-                                title={item.content.title}
-                                role={item.content.role}
-                                description={item.content.text}
-                            />
-                        )
-                    })}
-                    {/* <img src={olloIllustrationEye} alt="Ilustração Ollo"/> */}
+                    <Swiper
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Pagination]}
+                        breakpoints={{
+                            1920: {
+                                slidesPerView: 4,
+                                spaceBetween: 10,
+                            },
+                            1440: {
+                                slidesPerView: 3,
+                                spaceBetween: 10,
+                            },
+                            1024: {
+                                slidesPerView: 2,
+                                spaceBetween: 10,
+                            },
+                            640: {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            },
+                        }}
+                    >
+                        {dataCardsAttributes.map(item => {
+                            return (
+                                <SwiperSlide key={item.id}>
+                                    <CardAttributes
+                                        key={item.id}
+                                        title={item.content.title}
+                                        role={item.content.role}
+                                        description={item.content.text}
+                                    />
+                                </SwiperSlide>
+                            )
+                        })
+                        }
+                        {/* <img src={olloIllustrationEye} alt="Ilustração Ollo"/> */}
+                    </Swiper>
                 </div>
             </article>
         </section>

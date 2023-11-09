@@ -59,6 +59,7 @@
 @media (max-width: 1120px) {
     .container {
         margin: 6rem 2rem 0;
+        gap: 3rem;
     }
 
     .container h2 {
@@ -71,13 +72,9 @@
     }
 
     .content {
-        display: flex;
-        flex-direction: column;
         flex-wrap: initial;
         gap: 2rem;
         margin: 0 2rem;
-        align-items: center;
-        justify-content: center;
     }
 
     /* .content img {

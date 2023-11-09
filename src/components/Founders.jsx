@@ -58,7 +58,6 @@ export function Founders() {
                                         <CardFounders
                                             key={item.id}
                                             talent={item.talent}
-                                            role={item.companies}
                                         />
                                     </SwiperSlide>
                                 )

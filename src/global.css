@@ -72,3 +72,7 @@ summary{
 details[open] summary{
     list-style-type: '';
 }
+
+.swiper-button-next, .swiper-button-prev {
+    color:#000;
+}

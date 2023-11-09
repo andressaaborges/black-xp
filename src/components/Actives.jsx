@@ -86,7 +86,7 @@ export function Actives() {
             <article className={styles.container}>
                 <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Mantendo o Movimento<br /><span>Pessoas Atuantes</span></motion.h2>
                 <div className={styles.content}>
-                    <Swiper
+                    <Swiper className='.swiper-button-prev'
                         modules={[Navigation]}
                         navigation
                         breakpoints={{

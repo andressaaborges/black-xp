@@ -5,8 +5,8 @@ export function CardFounders({ talent }) {
         <section className={styles.cardFounders}>
             <article className={styles.containerFounders}>
                 <div className={styles.header}>
-                    <img className={styles.imgFounders} src={talent.photo} alt={talent.nome} />
-                    <h1>{talent.name}<br />{talent.surname}</h1>
+                    <img className={styles.imgFounders} src={talent.photo} alt={talent.name} />
+                    <h1>{talent.name}</h1>
                 </div>
                 <div className={styles.dataFounders}>
                     <h4>{talent.role}</h4>
