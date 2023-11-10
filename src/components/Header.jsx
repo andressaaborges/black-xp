@@ -2,6 +2,7 @@ import styles from './Header.module.css';
 import olloLogo from './../assets/ollo.svg';
 import React, { useState } from 'react';
 import { List, X } from '@phosphor-icons/react';
+import estatutoMoviafro from './../assets/EstatutoMoviafro.pdf';
 
 export function Header() {
     const [classOn, setClassOn] = useState(false);
@@ -27,6 +28,7 @@ export function Header() {
                             <li><a href="#inspirations">Pessoas</a></li>
                             <li><a href="#partness">Parceiros</a></li>
                             <li><a href="#press">Imprensa</a></li>
+                            <li> <a href={estatutoMoviafro} download>Estatuto</a></li>
                         </ul>
                     </nav>
                 </div>
