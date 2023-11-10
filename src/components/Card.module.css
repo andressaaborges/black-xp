@@ -1,23 +1,36 @@
 .cardLeft {
     display: flex;
-    align-items: baseline;
+    gap: 2rem;
+    align-items: center;
+    justify-content:space-between;
     /* border-left: 5px solid var(--blue-400);
     padding: 2rem 0; */
     border-left: 5px solid var(--blue-400);
-    padding: 2rem 0 8rem 2rem;
+    padding: 2rem 0 2rem 2rem;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
 }
 
 .cardRight {
     display: flex;
-    align-items: baseline;
-    border-right: 5px solid var(--blue-400);
-    padding: 2rem 2rem 5rem 0;
+    gap: 2rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    /* border-left: 5px solid var(--blue-400);
+    padding: 2rem 0; */
+    border-left: 5px solid var(--blue-400);
+    padding: 2rem 0 2rem 2rem;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .content h3 {
@@ -38,30 +51,14 @@
 
 .footer {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
+    width: 100%;
 }
 
-/* .footer p {
-    min-width: 10%;
-    color: var(--gray-700);
-    font-weight: 400;
-    line-height: 150%;
-    padding: 1rem;
-    border-radius: 0.8rem;
-    background-color: var(--blue-400);
-    letter-spacing: 0.925px;
-    font-size: 1rem;
-    position: relative;
-    left: -1rem;
-} */
-
 @media (max-width: 1120px) {
-    .cardRight {
-        display: flex;
-        align-items: baseline;
-        border-left: 5px solid var(--blue-400);
-        border-right: none;
-        padding: 0 2rem 5rem 2rem;
+    .cardLeft, .cardRight {
+        flex-direction: column;
+        padding: 2rem 0 2rem 1rem;
     }
 
     .content h3 {

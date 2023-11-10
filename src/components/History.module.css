@@ -47,47 +47,10 @@
     display: flex;
     /* justify-content: center;
     align-items: center; */
-    margin: 6.5rem 0 0 16rem;
+    margin: 6.5rem 0 6.5rem 16rem;
 }
-
-.storyImg {
-    display: flex;
-    flex-direction: column;
-}
-
-/* .pattern {
-    position: relative;
-    right: 0;
-    margin: 0;
-    width: 60%;
-    margin-bottom: 2rem;
-} */
-
-/* .pattern {
-    animation-name: example;
-    animation-duration: 6s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: backwards;
-} */
-
-/* @keyframes example {
-    25% {
-        color: #0908082a;
-        left: 0px;
-    }
-
-    0% {
-        color: #0908082a;
-        left: 200px;
-    }
-
-} */
 
 .content .description h2 {
-    /* width: 40%; */
-    /* flex-flow: row wrap;
-    flex-grow: 2; */
-    /* talvez esse flex não sirva */
     color: var(--gray-700);
     font-weight: 500;
     font-size: 3rem;
@@ -98,16 +61,6 @@
     color: var(--blue-400);
     font-size: 3rem;
 }
-
-/* .content .description p {
-    min-width: 10%;
-    color: var(--gray-700);
-    font-weight: 400;
-    line-height: 150%;
-    padding: 1rem;
-    border-radius: 0.8rem;
-    background-color: var(--blue-400);
-} */
 
 .paragraph2 p {
     min-width: 10%;
@@ -121,21 +74,13 @@
 }
 
 .paragraph2 {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    margin: -1rem 0 -1rem 9rem;
 }
 
-/* .paragraph {
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    justify-items: center;
-} */
 
 /* .line {
     margin-left: 2rem;
@@ -145,21 +90,25 @@
 
 .cardsSection {
     display: flex;
-    justify-content: right;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 4rem;
     margin: 0 10rem;
+}
+
+.swiperImg {
+    width: 50%;
 }
 
 .cards {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    width: 50%;
+    width: 100%;
 }
 
 .illustration {
-    width: 40%;
+    width: 100%;
     transform: rotate(-1.4deg);
     margin-bottom: 2rem;
 }
@@ -167,9 +116,10 @@
 .illustration2,
 .illustration4 {
     display: inline;
-    width: 45%;
+    width: 100%;
     transform: rotate(-1.4deg);
     margin-top: 2rem;
+    border-radius: 2rem;
 }
 
 .illustration3 {
@@ -208,13 +158,8 @@
         font-size: 1rem;
     }
 
-    /* .content .description h2,
-    .content .description p {
-        width: 100%;
-    } */
-
     .paragraph2 p {
-        min-width: 20%;
+        min-width: 40%;
     }
 
     .paragraph2 {
@@ -225,14 +170,13 @@
         margin: 2rem 0 0 0;
     }
 
-
     .cardsSection {
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
         gap: 0rem;
-        margin: 0 1rem;
-        padding: 0 2rem 0 0;
+        margin: 0 1rem -2rem;
+        padding: 0 0;
     }
 
     .cards {
@@ -249,14 +193,18 @@
 
     .illustration2 {
         display: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 
     .illustration3,
     .illustration4 {
         display: inline;
         width: 100%;
-        transform: rotate(0);
-        margin-top: -2rem;
+        /* transform: rotate(0); */
+        margin-top:0;
+        margin-bottom: 2rem;
     }
 }
 
