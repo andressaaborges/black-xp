@@ -1,5 +1,5 @@
 import styles from './History.module.css';
-import valConceicao from './../assets/story/valConceicao.svg';
+import story1 from './../assets/story/story-1.svg';
 import story2 from './../assets/story/story-2.svg';
 import story3 from './../assets/story/story-3.svg';
 import { Card } from './Card';
@@ -10,7 +10,7 @@ const dataCards = [
         id: 1,
         content: {
             name: "Raízes que Germinam",
-            paragraph: "No dia 20 de Novembro do ano de 2014, Val Conceição, Viviane Carvalho e Anne Santos, se uniram em Feira de Santana, Bahia. para darem vida ao Coletivo Moviafro, um espaço que nasceu da necessidade de uma nova representatividade no Movimento Negro em Feira de Santana, partindo do princípio da ressignificação desse movimento em nosso município e por perceberem a necessidade dessa representatividade de forma mais abrangente e que oferecesse credibilidade não só externa, mas internamente. Existia uma carência em Feira de Santana de um grupo que verdadeiramente representasse o povo negro em todas as suas demandas, sejam elas culturais ou intelectuais. Precisava-se de algo que pudesse fazer com que a população negra e as comunidades se sentissem representados, e que, sobretudo, pudessem ter espaço de fala em momentos e locais jamais imaginados. Neste período, sementes foram plantadas, e a Moviafro surge como um porta voz das comunidades afrodescendentes de Feira de Santana, como uma representante fiel desses que herdaram dos seus ancestrais suas dores, mas também os seus valores."
+            paragraph: "No dia 20 de Novembro do ano de 2014, Val Conceição e Viviane Carvalho, se uniram em Feira de Santana, Bahia. para darem vida ao Coletivo Moviafro, um espaço que nasceu da necessidade de uma nova representatividade no Movimento Negro em Feira de Santana, partindo do princípio da ressignificação desse movimento em nosso município e por perceberem a necessidade dessa representatividade de forma mais abrangente e que oferecesse credibilidade não só externa, mas internamente. Existia uma carência em Feira de Santana de um grupo que verdadeiramente representasse o povo negro em todas as suas demandas, sejam elas culturais ou intelectuais. Precisava-se de algo que pudesse fazer com que a população negra e as comunidades se sentissem representados, e que, sobretudo, pudessem ter espaço de fala em momentos e locais jamais imaginados. Neste período, sementes foram plantadas, e a Moviafro surge como um porta voz das comunidades afrodescendentes de Feira de Santana, como uma representante fiel desses que herdaram dos seus ancestrais suas dores, mas também os seus valores."
         },
     },
     {
@@ -55,8 +55,8 @@ export function History() {
                     <div className={styles.paragraph2}>
                         <p><strong>2014</strong></p>
                     </div>
-                    <div className={styles.cardsSection}>
-                        <img className={styles.illustration} src={valConceicao} alt="Val Conceição" title="Val Conceição" />
+                    <div className={styles.cardsSection}>                  
+                            <img className={styles.illustration} src={story1} alt="Val Conceição" title="Val Conceição" />                          
                         <div className={styles.cards}>
                             <Card
                                 key={dataCards[0].id}
@@ -85,10 +85,12 @@ export function History() {
                     <div className={styles.cardsSection}>
                         <img className={styles.illustration4} src={story3} alt="História da Moviafro" title="História da Moviafro" />
                         <div className={styles.cards}>
+                        
                             <Card
                                 key={dataCards[2].id}
                                 content={dataCards[2].content}
                             />
+                              
                         </div>
                     </div>
 

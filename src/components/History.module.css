@@ -50,6 +50,11 @@
     margin: 6.5rem 0 0 16rem;
 }
 
+.storyImg {
+    display: flex;
+    flex-direction: column;
+}
+
 /* .pattern {
     position: relative;
     right: 0;
