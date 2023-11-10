@@ -114,8 +114,8 @@ export function Home() {
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                     }} />
                     <div className={styles.titles}>
-                        <h1>Moviafro Feira de Santana, Oito Anos Resistindo, Persistindo e Re-existindo</h1>
-                        <h5 className={styles.h5En}>Celebrando a herança ancestral, comprometidos com a luta antirracista em Feira de Santana.</h5>
+                        <h1>Associação Cultural Moviafro: Oito Anos Resistindo, Persistindo e Re-existindo</h1>
+                        <h5 className={styles.h5En}>Celebrando a herança ancestral, comprometidos com a luta antirracista em Feira de Santana - BA.</h5>
                     </div>
                 </div>
                 <div className={styles.buttonsSection}>
