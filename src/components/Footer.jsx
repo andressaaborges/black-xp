@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
-import olloIllustrationBigEyes from './../assets/olloIllustrationBigEyes.svg';
-import olloLogo from './../assets/ollo.svg';
+import estatutoMoviafro from './../assets/EstatutoMoviafro.pdf';
+import olloLogo from './../assets/moviafro.svg';
 import { useState } from 'react';
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react';
 
@@ -59,34 +59,32 @@ export function Footer() {
             <div className={styles.containerSecond}>
                 <div className={styles.sectionButtons}>
                     <h2>Levantemos uns aos outros.<br />Seja Moviafro!</h2>
-                    <button
-                        className={styles.buttonBackground} >
-                        Quero fazer parte
+                    <button className={styles.buttonBackground}>
+                        <a href="https://wa.link/u25dxd" target="_blank">
+                            Quero fazer parte
+                        </a>
                     </button>
-                    <button
-                        className={styles.buttonHasBorder} >
-                        Quero apoiar
+
+                    <button className={styles.buttonHasBorder}>
+                        <a href="https://wa.link/t2c44e" target="_blank">
+                            Quero apoiar
+                        </a>
                     </button>
                 </div>
                 <div className={styles.form}>
                     <img src={olloLogo} alt="Logo Ollo" />
                     <h3>Entre em contato através das redes sociais.</h3>
-                    {/* <form onSubmit={handleSubmit}>
-                        <input type="email" value={email} placeholder="E-mail" required onChange={(e) => { handleEmailChange(e) }} />
-                        <input type="submit" value={"Enviar"} />
-                        <div>{message ? <p>{message}</p> : null}</div>
-                    </form> */}
                     <div className={styles.contact}>
-                        <a href="/" target="_blank"><p>Termos de Uso e Privacidade</p></a>
+                        <a href={estatutoMoviafro} target="_blank" download><p>Estatuto da Associação Cultural Moviafro</p></a>
                         <a href="mailto:moviafrofsa@gmail.com" target="_blank"><p>moviafrofsa@gmail.com</p></a>
                         <div className={styles.social}>
-                            <a href="https://www.instagram.com/moviafrofsa.oficial" target="_blank"><InstagramLogo size={20} weight="light" /></a>
-                            <a href="/" target="_blank"><WhatsappLogo size={20} weight="fill" /></a>
+                            <a href="https://www.instagram.com/moviafrofsa.oficial" target="_blank"><InstagramLogo size={30} weight="light" /></a>
+                            <a href="/wa.link/qsan19" target="_blank"><WhatsappLogo size={30} weight="fill" /></a>
                         </div>
 
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }

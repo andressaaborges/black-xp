@@ -1,5 +1,5 @@
 import styles from './Home.module.css';
-import olloLogo from './../assets/ollo.svg';
+import olloLogo from './../assets/moviafro.svg';
 import olloStar from './../assets/olloStar.svg';
 import { motion } from 'framer-motion';
 import { Pause, Play } from '@phosphor-icons/react';
