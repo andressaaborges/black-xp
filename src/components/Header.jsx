@@ -28,7 +28,7 @@ export function Header() {
                             <li><a href="#inspirations">Pessoas</a></li>
                             <li><a href="#partness">Parceiros</a></li>
                             <li><a href="#press">Imprensa</a></li>
-                            <li><a href={estatutoMoviafro} target="_blank" download>Estatuto</a></li>
+                            <li><a href={estatutoMoviafro} target="_blank">Estatuto</a></li>
                         </ul>
                     </nav>
                 </div>
