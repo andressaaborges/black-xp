@@ -6,9 +6,9 @@ export function CardFounders({ talent }) {
             <article className={styles.containerFounders}>
                 <div className={styles.header}>
                     <img className={styles.imgFounders} src={talent.photo} alt={talent.name} />
-                    <h1>{talent.name}</h1>
                 </div>
                 <div className={styles.dataFounders}>
+                <h1>{talent.name}</h1>
                     <h4>{talent.role}</h4>
                     <p>{talent.companies}</p>
                 </div>
