@@ -48,6 +48,7 @@
     height: 10rem;
     margin-bottom: 1rem;
     border-top-right-radius: 9.54353px;
+    border-top-left-radius: 9.54353px;
 }
 
 @media (max-width: 1120px) {

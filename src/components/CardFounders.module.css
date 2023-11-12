@@ -19,11 +19,16 @@
     /* background-clip:padding-box; */
     width: 100%;
     /* padding: 0 2rem; */
+    border-top: 0.5rem solid var(--blue-400);
+    border-bottom: 0.5rem solid var(--blue-400);
+    border-top-left-radius: 9.54353px;
+    border-top-right-radius: 9.54353px;
 }
 
 .imgFounders {
     /* margin-left: -5rem; */
     margin-top: -4rem;
+    margin-bottom: 2rem;
     width: 11.8em;
     height: 11.8rem;
     object-fit: cover;
@@ -47,7 +52,7 @@
     width: 75%;
     /* height: 18rem; */
     max-height: auto;
-    border-top: 0.5rem solid var(--blue-400);
+    /* border-top: 0.5rem solid var(--blue-400); */
 }
 
 .dataFounders {
