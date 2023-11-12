@@ -16,6 +16,7 @@ import projetoEnemgrecer from './../assets/actions/projeto-enemgrecer.png';
 import circuitoMoviafro from './../assets/actions/circuitoMoviafro.jpg';
 import cortejoPelaPaz from './../assets/actions/cortejoPelaPaz.jpg';
 import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
+import missMisterInfantil from './../assets/actions/missEMisterAfroInfantil.jpg';
 
 export function Actions() {
     return (
@@ -161,6 +162,16 @@ export function Actions() {
                         <div className={styles.content}>
                             <h3>Miss Afro Plus Size Feira de Santana</h3>
                             <p>O Concurso Miss Afro Plus Size segue a mesma filosofia do Miss e Mister Afro, sendo direcionado para mulheres com manequim a partir de 46. No entanto, ele se destaca por sua missão inclusiva, combatendo a discriminação por capacidade, a gordofobia e desafiando estereótipos arraigados. Nosso objetivo primordial é enaltecer a beleza da mulher negra e gorda, honrando e respeitando sua verdadeira essência. Este é um espaço de reafirmação da força da mulher negra em toda a sua diversidade e autenticidade.</p>
+                        </div>
+                    </article>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <article className={styles.cardTestimonials}>
+                        <img src={missMisterInfantil} alt="Miss & Mister Afro Infantil" title="Participantes do Miss & Mister Afro Infantil 2023" />
+                        <div className={styles.content}>
+                            <h3>Miss & Mister Afro Infantil Feira de Santana</h3>
+                            <p>Com sua 1ª edição em 2023, oConcurso Miss & Mister Afro Infantil tem como proposta o pensamento da escritora Djamila Ribeiro: "Os padrões de beleza são totalmente nocivos para a construção da autoestima da criança negra e por isso é importante outros referenciais, entender que pessoas negras também pensam o mundo e que fazem parte da construção da sociedade". O concurso é dividido em três fases: Inscrições, Credenciamento e Final, seguindo os mesmos moldes dos demais concursos realizados pela instituição que focam na conscientização. A realização dessa ação afirmativa surge da necessidade de conscientizar cidadãos e cidadãs negras cada vez mais cedo, sobre ancestralidade, deveres, direitos e conquistas. </p>
                         </div>
                     </article>
                 </SwiperSlide>
