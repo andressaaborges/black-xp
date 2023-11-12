@@ -6,6 +6,7 @@ export function CardAttributes({ title, role, description }) {
     return (
         <motion.section className={styles.cardAttributes} initial={{ y: 61 }}
             whileInView={{ y: 0 }} transition={{ duration: 0.6 }}>
+            <div className={styles.header}></div>
             <details>
                 <motion.summary><h1>{title}</h1>
                 <h2>{role}</h2>
