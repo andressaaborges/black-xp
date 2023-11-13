@@ -17,6 +17,7 @@ import circuitoMoviafro from './../assets/actions/circuitoMoviafro.jpg';
 import cortejoPelaPaz from './../assets/actions/cortejoPelaPaz.jpg';
 import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
 import missMisterInfantil from './../assets/actions/missEMisterAfroInfantil.jpg';
+import dialogosNegros from './../assets/actions/dialogosNegros.jpeg';
 
 export function Actions() {
     return (
@@ -171,7 +172,17 @@ export function Actions() {
                         <img src={missMisterInfantil} alt="Miss & Mister Afro Infantil" title="Participantes do Miss & Mister Afro Infantil 2023" />
                         <div className={styles.content}>
                             <h3>Miss & Mister Afro Infantil Feira de Santana</h3>
-                            <p>Com sua 1ª edição em 2023, oConcurso Miss & Mister Afro Infantil tem como proposta o pensamento da escritora Djamila Ribeiro: "Os padrões de beleza são totalmente nocivos para a construção da autoestima da criança negra e por isso é importante outros referenciais, entender que pessoas negras também pensam o mundo e que fazem parte da construção da sociedade". O concurso é dividido em três fases: Inscrições, Credenciamento e Final, seguindo os mesmos moldes dos demais concursos realizados pela instituição que focam na conscientização. A realização dessa ação afirmativa surge da necessidade de conscientizar cidadãos e cidadãs negras cada vez mais cedo, sobre ancestralidade, deveres, direitos e conquistas. </p>
+                            <p>Com sua 1ª edição em 2023, o Concurso Miss & Mister Afro Infantil tem como proposta o pensamento da escritora Djamila Ribeiro: "Os padrões de beleza são totalmente nocivos para a construção da autoestima da criança negra e por isso é importante outros referenciais, entender que pessoas negras também pensam o mundo e que fazem parte da construção da sociedade". O concurso é dividido em três fases: Inscrições, Credenciamento e Final, seguindo os mesmos moldes dos demais concursos realizados pela instituição que focam na conscientização. A realização dessa ação afirmativa surge da necessidade de conscientizar cidadãos e cidadãs negras cada vez mais cedo, sobre ancestralidade, deveres, direitos e conquistas. </p>
+                        </div>
+                    </article>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <article className={styles.cardTestimonials}>
+                        <img src={dialogosNegros} alt="Diálogos Negros Moviafro" title="Diálogos Negros Moviafro" />
+                        <div className={styles.content}>
+                            <h3>Diálogos Negros Moviafro</h3>
+                            <p>O Projeto Diálogos Negros é uma iniciativa da Prof. Me. Andréia Araújo em colaboração com jovens negros estudantes universitários, professores, estagiários, e ativistas sociais e culturais de Feira de Santana e região com parceria e apoio institucional da Associação Cultural Moviafro. O objetivo do projeto é promover espaços de interlocução sobre as questões étnico-raciais com foco nas demandas, representatividade, conscientização e empoderamento da população negra de Feira de Santana e região.</p>
                         </div>
                     </article>
                 </SwiperSlide>

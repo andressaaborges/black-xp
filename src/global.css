@@ -47,6 +47,7 @@ span {
     font-family: 'Homemade Apple', cursive;
     font-weight: 400;
     font-size: 1rem;
+    text-transform: none;
 }
 
 summary::-webkit-details-marker {
@@ -71,4 +72,13 @@ summary {
 
 details[open] summary {
     list-style-type: '';
+}
+
+h2 {
+    font-family: 'Caesar Dressing', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 ::before {
+    content: " >";
 }

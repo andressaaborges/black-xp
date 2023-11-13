@@ -34,7 +34,7 @@ export function Founders() {
     return (
         <section className={styles.talents} id="founders">
             <article className={styles.container}>
-                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Primeiros Passos<br /><span>Nossos Fundadores</span></motion.h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Primeiros Passos<span><br />Nossos Fundadores</span></motion.h2>
                 <div className={styles.content}>
                     <Swiper
                         modules={[Navigation]}

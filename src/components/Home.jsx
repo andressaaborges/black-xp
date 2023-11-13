@@ -1,5 +1,5 @@
 import styles from './Home.module.css';
-import olloLogo from './../assets/moviafro.svg';
+import moviafroLogo from './../assets/moviafro.svg';
 import moviafroSlogan from './../assets/moviafroSlogan.svg';
 import { motion } from 'framer-motion';
 import { Pause, Play } from '@phosphor-icons/react';
@@ -108,7 +108,7 @@ export function Home() {
             }} />
             <article className={styles.content}>
                 <div className={styles.textImg}>
-                    <motion.img className={styles.afro} src={olloLogo} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
+                    <motion.img className={styles.afro} src={moviafroLogo} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
                         scale: [1, 2, 2, 1, 1],
                         rotate: [0, 0, 270, 270, 0],
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],

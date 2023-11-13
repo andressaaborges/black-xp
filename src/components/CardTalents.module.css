@@ -14,7 +14,7 @@
 }
 
 .header {
-    background-image: url("../assets/africanTalents8.jpg");
+    background-image: url("../assets/africanTalents21.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,8 +36,8 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     /* border-right: 0.5rem solid var(--blue-400); */
-    /* border-top: 0.5rem solid var(--blue-400); */
-    border-left: 0.5rem solid var(--blue-400);
+    border: 0.5rem solid var(--white);
+    /* border-left: 0.5rem solid var(--blue-400); */
     position: absolute;
     box-shadow: 0px 2.38588px 17.8941px rgba(0, 0, 0, 0.15);
 }

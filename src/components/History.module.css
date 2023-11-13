@@ -11,7 +11,7 @@
 }
 
 .services::after {
-    content: '';
+    content:  url("/src/assets/after.svg");
     height: 100%;
     right: 0%;
     position: absolute;

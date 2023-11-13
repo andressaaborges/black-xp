@@ -38,7 +38,7 @@ export function History() {
             <article className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.description}>
-                        <h2>Resistência Viva<br /><span>Nossa História</span></h2>
+                        <h2>Resistência Viva<span><br />Nossa História</span></h2>
                     </div>
 
                     <div className={styles.paragraph2}>
