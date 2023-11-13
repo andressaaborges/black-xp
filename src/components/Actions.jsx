@@ -138,9 +138,9 @@ export function Actions() {
 
                 <SwiperSlide>
                     <article className={styles.cardTestimonials}>
-                        <img src={circuitoMoviafro} alt="Circuito Moviafro para a Preservação da Cultura de Matriz Africana" title="Circuito Moviafro para a Preservação da Cultura de Matriz Africana" />
+                        <img src={circuitoMoviafro} alt="Circuito Moviafro de Afroempreendedores" title="Circuito Moviafro de Afroempreendedores" />
                         <div className={styles.content}>
-                            <h3>Circuito Moviafro para a Preservação da Cultura de Matriz Africana</h3>
+                            <h3>Circuito Moviafro de Afroempreendedores</h3>
                             <p>O Circuito Moviafro é uma iniciativa persistente de afroempreendedorismo. Seu propósito é catalisar o desenvolvimento e a sustentação de empreendimentos liderados por pessoas negras, especialmente aquelas em situação de vulnerabilidade social. Esta ação é uma resposta direta à necessidade urgente de fortalecer a presença e o impacto da comunidade negra no mundo dos negócios.</p>
                         </div>
                     </article>
