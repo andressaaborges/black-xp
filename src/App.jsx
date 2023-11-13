@@ -13,6 +13,8 @@ import { Footer } from './components/Footer';
 import { Actives } from './components/Actives';
 import { Founders } from './components/Founders';
 import { History } from './components/History';
+import VLibras from '@djpfs/react-vlibras';
+
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Header />
       <div className={styles.wrapper}>
         <main>
+          <VLibras forceOnload={true} />
           <Home />
+
           <History />
           <Founders />
           <Impact />
