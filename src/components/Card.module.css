@@ -34,18 +34,18 @@
 }
 
 .content h3 {
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: -1px;
-    font-size: 43.75px;
+    font-size: 2.2rem;
     color: var(--gray-500);
-    text-transform: lowercase;
+    /* text-transform: uppercase; */
 }
 
 .content p {
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
     color: var(--gray-500);
-    line-height: 200%;
+    line-height: 175%;
     /* text-transform: uppercase; */
 }
 

@@ -18,6 +18,7 @@ import cortejoPelaPaz from './../assets/actions/cortejoPelaPaz.jpg';
 import missPlusSize from './../assets/actions/missAfroPlusSize.jpeg';
 import missMisterInfantil from './../assets/actions/missEMisterAfroInfantil.jpg';
 import dialogosNegros from './../assets/actions/dialogosNegros.jpeg';
+import moviafroNasEscolas from './../assets/actions/moviafroNasEscolas.jpeg';
 
 export function Actions() {
     return (
@@ -183,6 +184,16 @@ export function Actions() {
                         <div className={styles.content}>
                             <h3>Diálogos Negros Moviafro</h3>
                             <p>O Projeto Diálogos Negros é uma iniciativa da Prof. Me. Andréia Araújo em colaboração com jovens negros estudantes universitários, professores, estagiários, e ativistas sociais e culturais de Feira de Santana e região com parceria e apoio institucional da Associação Cultural Moviafro. O objetivo do projeto é promover espaços de interlocução sobre as questões étnico-raciais com foco nas demandas, representatividade, conscientização e empoderamento da população negra de Feira de Santana e região.</p>
+                        </div>
+                    </article>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <article className={styles.cardTestimonials}>
+                        <img src={moviafroNasEscolas} alt="Projeto Moviafro nas Escolas" title="Projeto Moviafro nas Escolas" />
+                        <div className={styles.content}>
+                            <h3>Projeto Moviafro nas Escolas</h3>
+                            <p>A Moviafro Feira de Santana desempenha um papel ativo na promoção de ações afirmativas dentro de instituições de ensino, tanto públicas quanto privadas. Ao longo do ano, realizamos diversas atividades, como rodas de conversa, palestras, seminários e oficinas de formação, com o propósito fundamental de conscientizar alunos e professores sobre as complexidades das questões raciais. Apesar da aprovação há dez anos da Lei 10.639/03, lamentavelmente, ainda não observamos sua efetiva implementação na maioria dessas instituições educacionais. Diante desse cenário, o Núcleo Moviafro de Apoio Pedagógico idealizou e executa este projeto, contribuindo ativamente para a efetivação e aplicação da referida Lei, visando promover uma educação mais inclusiva e comprometida com a diversidade.</p>
                         </div>
                     </article>
                 </SwiperSlide>
