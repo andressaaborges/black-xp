@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
 import olloLogo from './../assets/moviafro.svg';
-import olloStar from './../assets/olloStar.svg';
+import moviafroSlogan from './../assets/moviafroSlogan.svg';
 import { motion } from 'framer-motion';
 import { Pause, Play } from '@phosphor-icons/react';
 import { useState, useRef, useEffect } from 'react';
@@ -101,7 +101,7 @@ export function Home() {
 
     return (
         <section className={styles.home} id="home">
-            <motion.img className={styles.olloLogo} src={olloStar} alt="Lema: Levantemos uns aos outros" title="Lema: Levantemos uns aos outros" whileInView={{
+            <motion.img className={styles.olloLogo} src={moviafroSlogan} alt="Lema: Levantemos uns aos outros" title="Lema: Levantemos uns aos outros" whileInView={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 270, 270, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
