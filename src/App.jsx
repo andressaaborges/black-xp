@@ -24,7 +24,6 @@ function App() {
         <main>
           <VLibras forceOnload={true} />
           <Home />
-
           <History />
           <Founders />
           <Impact />
