@@ -13,7 +13,7 @@ export function Actions() {
             <article className={styles.content}>
                 <p>A <strong>aimo tech</strong> montou um time irado para esse evento acontecer, composto por profissionais experientes, mas também criando oportunidades para quem tá organizando uma jam pela primeira vez.<br /><br />Nas nossas redes sociais e no nosso servidor você vai poder conhecer o nosso time completo!</p>
 
-                <Swiper
+                {/* <Swiper
                     slidesPerView={1}
                     spaceBetween={10}
                     pagination={{
@@ -25,9 +25,9 @@ export function Actions() {
                     }}
                     modules={[Autoplay, Pagination]}
                     className={styles.mySwiper}
-                >
+                > */}
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <article className={styles.cardTestimonials}>
                             <img src={tataRibeiro} alt="Foto da pessoa organizadora" title="Foto da pessoa organizadora" />
                             <div className={styles.contentCard}>
@@ -57,7 +57,7 @@ export function Actions() {
                         </article>
                     </SwiperSlide>
 
-                </Swiper>
+                </Swiper> */}
             </article>
         </section>
     )
