@@ -4,15 +4,43 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import { Baby, BowlFood, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
 
 export function Impact() {
+    const cardsData = [
+        {
+            icon: <IdentificationBadge size={30} />,
+            title: 'Autodeclaração',
+            description: 'Se você é uma pessoa autodeclarada preta, parda ou indígena, este evento é para você.',
+        },
+        {
+            icon: <UserFocus size={30} />,
+            title: 'Idade',
+            description: 'Este evento é destinado a pessoas com idade entre 16 e 29 anos que amam games.',
+        },
+        {
+            icon: <GameController size={30} />,
+            title: 'Modalidade',
+            description: 'Escolha entre participação online, híbrida ou presencial.',
+        },
+        {
+            icon: <Baby size={30} />,
+            title: 'Espaço Kids',
+            description: 'Informe se precisa de suporte do nosso espaço kids, incluindo a idade da criança.',
+        },
+        {
+            icon: <BowlFood size={30} />,
+            title: 'Alimentação',
+            description: 'Informe sobre alguma restrição alimentar para garantir uma experiência personalizada.',
+        },
+    ];
 
     if (window.innerWidth <= 1120) {
         return (
-            <section className={styles.operation} id="impact">
+            <section className={styles.operation} id="registration">
                 <article className={styles.content}>
-                    <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>
+                    <h2>Como me inscrever?</h2>
                     <div className={styles.cardsSectionOperation}>
                         <Swiper grabCursor={true}
                             effect={"creative"}
@@ -46,115 +74,33 @@ export function Impact() {
                             modules={[EffectCreative]}
                             className="mySwiper">
 
-                            <SwiperSlide key={1}>
-                                <CardOperation
-                                    key={1}
-                                    number={"2"}
-                                    title={"Mil Vidas Impactadas"}
-                                    description={"Nossos ações afirmativas beneficiaram mais de 2.000 crianças, jovens e adultos."}
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide key={2}>
-                                <CardOperation
-                                    key={2}
-                                    number={10}
-                                    title={"Ações Desenvolvidas"}
-                                    description={"Com mais de 10 atividades culturais idealizadas e realizadas pela associação."}
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide key={3}>
-                                <CardOperation
-                                    key={3}
-                                    number={50}
-                                    title={"Pessoas Participantes"}
-                                    description={"Com mais de 50 pessoas membras e parceiras que constroem nossa Moviafro."}
-                                />
-                            </SwiperSlide>
-                            <SwiperSlide key={4}>
-                                <CardOperation
-                                    key={4}
-                                    number={8}
-                                    title={"Anos de Existência"}
-                                    description={"Uma trajetória que testemunha nosso compromisso com nossa missão ancestral."}
-                                />
-                            </SwiperSlide>
+                            {cardsData.map((card, index) => (
+                                <SwiperSlide key={index}>
+                                    <CardOperation icon={card.icon} title={card.title} description={card.description} />
+                                </SwiperSlide>
+                            ))}
                         </Swiper>
                     </div>
-                    {/* <h3>{t("operation.subtitle")}</h3>
-                    <div className={styles.buttonsSection}>
-                        <PopupButton
-                            id={t("button.hireLang")}
-                            className={styles.buttonBackground}>
-                            {t("button.hire")}
-                        </PopupButton>
-
-                        <PopupButton
-                            id={t("button.inLang")}
-                            className={styles.buttonHasBorder}>
-                            {t("button.in")}
-                        </PopupButton>
-                    </div> */}
                 </article>
             </section>
         )
     }
     else {
         return (
-            <section className={styles.operation} id="impact">
+            <section className={styles.operation} id="registration">
                 <article className={styles.content}>
                     <div className={styles.title}>
-                        <h2>Compromisso Ancestral<span><br />Nosso Impacto</span></h2>
-
+                        <h2>Como me inscrever?</h2>
                     </div>
                     <motion.div className={styles.cardsSectionOperation} initial={{ opacity: 0, scale: 0, x: 500, y: -50 }} whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }} transition={{ duration: 0.6 }}>
 
-                        <CardOperation
-                            key={1}
-                            number={2}
-                            title={"Mil Vidas Impactadas"}
-                            description={"Nossos ações afirmativas beneficiaram mais de 2.000 crianças, jovens e adultos."}
-                        />
+                        {cardsData.map((card, index) => (
 
+                                <CardOperation key={index} icon={card.icon} title={card.title} description={card.description} />
 
-                        <CardOperation
-                            key={2}
-                            number={10}
-                            title={"Ações Desenvolvidas"}
-                            description={"Com mais de 10 atividades culturais idealizadas e realizadas pela associação."}
-                        />
-
-                        <CardOperation
-                            key={3}
-                            number={50}
-                            title={"Pessoas Participantes"}
-                            description={"Com mais de 50 pessoas membras e parceiras que constroem nossa Moviafro."}
-                        />
-
-                        <CardOperation
-                            key={4}
-                            number={8}
-                            title={"Anos de Existência"}
-                            description={"Uma trajetória que testemunha nosso compromisso com nossa missão ancestral."}
-                        />
+                        ))}
 
                     </motion.div>
-                    {/* <h3>{t("operation.subtitle")}</h3>
-                    <motion.div className={styles.buttonsSection} initial={{ opacity: 0, scale: 0, x: -500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>  */}
-                    {/* <a href="https://ollo.is/br/hire/" target="_blank"><motion.button className={styles.buttonBackground} initial={{ opacity: 0, scale: 0, x: -500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>Quero contratar</motion.button></a>
-                        <a href="https://ollo.is/br/in/" target="_blank"><motion.button className={styles.buttonHasBorder} initial={{ opacity: 0, scale: 0, x: 500 }} whileInView={{ opacity: 1, scale: 1, x: 0 }} transition={{ duration: 0.6 }}>Quero fazer parte</motion.button></a> */}
-                    {/* 
-                        <PopupButton
-                            id={t("button.hireLang")}
-                            className={styles.buttonBackground} >
-                            {t("button.hire")}
-                        </PopupButton>
-
-                        <PopupButton
-                            id={t("button.inLang")}
-                            className={styles.buttonHasBorder} >
-                            {t("button.in")}
-                        </PopupButton>
-                    </motion.div> */}
                 </article>
             </section>
         )

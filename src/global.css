@@ -1,22 +1,22 @@
 :root {
-    --white: #fff;
+    --white: #FEFEFE;
     --black: #000;
     --pink: #ff6b8e;
-    --gray-100: #f5f5f5;
-    --gray-200: #f6f6f6;
+    --gray-100: #FEFEFE;
+    --gray-200: #FAEFD5;
     --gray-300: #f7f7f7;
     --gray-400: #ababab;
     --gray-500: #5a5a5a;
     --gray-600: #4d4d4d;
     --gray-700: #333;
-    --blue-100: #a7ed9c;
-    --blue-150: #24bfbf;
-    --blue-200: #23bebe;
-    --blue-300: #00a3ff;
-    --blue-400: #DA261D;
-    --blue-500: #F7C300;
-    --blue-600: #264918;
-    --linear-gradient: linear-gradient(304.03deg, #DA261D 18.78%, #F7C300 94.69%);
+    --blue-100: #68D4ED;
+    --blue-150: #A591F1;
+    --blue-200: #8052FF;
+    --blue-300: #4c25e4;
+    --blue-400: #210E5B;
+    --blue-500: #4C25E4;
+    --blue-600: #7A8B4E;
+    --linear-gradient: linear-gradient(304.03deg, #68D4ED 18.78%, #210E5B 94.69%);
 }
 
 * {
@@ -38,13 +38,13 @@ body {
 body,
 input,
 button {
-    font-family: "Outfit", sans-serif;
+    font-family: 'Bungee', sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
 
 span {
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Bungee', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     text-transform: none;
@@ -56,14 +56,18 @@ summary::-webkit-details-marker {
 
 summary:after {
     background: transparent;
-    content: url(../src/assets/caret-circle-up-light.svg);
-    color: transparent;
+    content: '';
+    color: var(--blue-400);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 details[open] summary:after {
     background: transparent;
-    content: url(../src/assets/caret-circle-down-light.svg);
-    color: transparent;
+    content: '';
+    color: var(--blue-400);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 summary {
@@ -74,11 +78,11 @@ details[open] summary {
     list-style-type: '';
 }
 
-h2 {
-    font-family: 'Caesar Dressing', sans-serif;
-    text-transform: uppercase;
+p {
+    font-family: 'Raleway', sans-serif;
+    /* text-transform: uppercase; */
 }
 
-h2 ::before {
+/* h2 ::before {
     content: " >";
-}
+} */

@@ -5,37 +5,9 @@
     margin: 4rem 0 4rem 0;
 }
 
-.header {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    background-image: url("../assets/tecido2.jpg");
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* background-clip:padding-box; */
-    width: 100%;
-    /* padding: 0 2rem; */
-    border-top: 0.5rem solid var(--blue-400);
-    border-bottom: 0.5rem solid var(--blue-400);
-    border-top-left-radius: 9.54353px;
-    border-top-right-radius: 9.54353px;
-}
-
 .imgFounders {
-    /* margin-left: -5rem; */
-    margin-top: -4rem;
-    margin-bottom: 2rem;
-    width: 11.8em;
-    height: 11.8rem;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    border-top: 0.5rem solid var(--blue-400);
-    border-left: 0.5rem solid var(--blue-400);
+    width: 1.8rem;
+    /* height: 2.8rem; */
 }
 
 
@@ -44,15 +16,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    /* padding: 2rem; */
-    background: var(--white);
+    background: var(--blue-400);
     box-shadow: 0px 2.38588px 17.8941px rgba(0, 0, 0, 0.15);
     border-radius: 9.54353px;
     width: 75%;
-    /* height: 18rem; */
-    max-height: auto;
-    /* border-top: 0.5rem solid var(--blue-400); */
 }
 
 .dataFounders {
@@ -60,40 +27,41 @@
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 0 2rem 2rem;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 .containerFounders h1 {
     font-weight: 700;
     line-height: 115%;
-    color: var(--blue-400);
+    color: var(--blue-100);
     font-size: 1.9rem;
     padding-bottom: 0.5rem;
     text-align: left;
 }
 
-.container h4 {
-    font-weight: 500;
-    font-size: 1.19rem;
-    line-height: 150%;
-    color: var(--black);
-    text-align: center;
-}
-
 .containerFounders h4 {
     font-weight: 500;
-    font-size: 1.19rem;
+    font-size: 1.5rem;
     line-height: 150%;
-    color: var(--gray-700);
+    color: var(--blue-100);
     text-align: left;
 }
 
 .containerFounders p {
-    font-weight: 400;
-    font-size: 0.79rem;
-    line-height: 115%;
-    color: var(--black);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 117%;
+    color: var(--white);
     text-align: left;
+}
+
+.patterns2 {
+    /* margin: 10rem 0 0 -10rem; */
+    width: 30%;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
 }
 
 @media (max-width: 1120px) {
@@ -101,14 +69,13 @@
         flex-direction: column;
     }
 
-    .imgFounders {
+    /* .imgFounders {
         margin-top: -4rem;
-        /* margin-left: -13rem; */
         width: 11.8em;
         height: 11.8rem;
         object-fit: cover;
         aspect-ratio: 1/1;
         border-radius: 50%;
         border-left: 0.5rem solid var(--blue-400);
-    }
+    } */
 }

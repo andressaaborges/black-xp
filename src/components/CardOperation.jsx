@@ -1,13 +1,15 @@
 import styles from './CardOperation.module.css';
 
-export function CardOperation({ number, title, description }) {
+export function CardOperation({ icon, title, description }) {
     return (
         <section className={styles.cardOperation}>
             <article className={styles.container}>
-                <h1>{number}</h1>
-                <h4>{title}</h4>
-                <p>{description}</p>
+                <div className={styles.icon}>{icon}</div>
+                <div className={styles.text}>
+                    <h4>{title}</h4>
+                    <p>{description}</p>
+                </div>
             </article>
         </section>
-    )
+    );
 }

@@ -2,7 +2,6 @@ import { Cores } from './components/Cores';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
 import { Impact } from './components/Impact';
-
 import styles from './App.module.css';
 import './global.css';
 import { Inspirations } from './components/Inspirations';
@@ -14,6 +13,7 @@ import { Actives } from './components/Actives';
 import { Founders } from './components/Founders';
 import { History } from './components/History';
 import VLibras from '@djpfs/react-vlibras';
+import EventLocation from './components/EventLocation';
 
 
 function App() {
@@ -22,17 +22,15 @@ function App() {
       <Header />
       <div className={styles.wrapper}>
         <main>
-          <VLibras forceOnload={true} />
+          {/* <VLibras forceOnload={true} /> */}
           <Home />
           <History />
           <Founders />
+          <Cores />
           <Impact />
           <Actions />
-          <Cores />
-          <Inspirations />
-          <Actives />
+          <EventLocation />
           <Partness />
-          <Press />
         </main>
       </div>
       <Footer />

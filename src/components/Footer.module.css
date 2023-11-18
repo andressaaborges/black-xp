@@ -1,8 +1,9 @@
 .footer {
     background: var(--blue-400);
     height: 100%;
-    width: 100vw;
+    width: 100%;
     padding: 1rem 0;
+    overflow-x:hidden;
 }
 
 .footer a {
@@ -30,6 +31,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: end;
 }
 
 .sectionButtons h2 {
@@ -39,6 +41,7 @@
     line-height: 111%;
     color: var(--white);
     margin-bottom: 2rem;
+    text-align: right;
 }
 
 .sectionButtons button {
@@ -74,8 +77,10 @@
 .containerSecond {
     margin: 5rem 10rem 3rem;
     display: flex;
-    justify-content:space-between; 
+    justify-content:space-evenly; 
     align-items:center;
+    flex-direction: row-reverse;
+    gap: 3rem
 }
 
 .form h3 {
@@ -83,7 +88,7 @@
     font-size: 22px;
     line-height: 118%;
     color: var(--white);
-    text-align: right;
+    text-align: left;
 }
 
 .form {
@@ -133,7 +138,7 @@
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 0.4rem;
     color: var(--white);
 }
@@ -146,7 +151,7 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 115%;
-    text-align: right;
+    text-align: left;
 }
 
 .contact a {
@@ -165,13 +170,8 @@
         padding: 0 5rem 0 0;
     }
 }
-
 @media (max-width: 1120px) {
-    /* .footer {
-        padding: 0 0 1rem;
-    } */
-
-    /* .containerFirst{
+    .containerFirst {
         display: flex;
         flex-direction: column-reverse;
         align-items: normal;
@@ -197,19 +197,19 @@
 
     .line {
         margin-right: 0;
-    } */
+    }
 
     .containerSecond {
         margin: 4rem 3rem 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: right;
+        justify-content: center;  /* Ajuste para centralizar o conteúdo */
         gap: 2rem;
     }
 
-    .containerSecond h3 {
-        width: 100%;
+    .containerSecond h2 {
+        text-align: center;  /* Ajuste para centralizar o texto */
     }
 
     .containerSecond img {
@@ -219,22 +219,20 @@
     .form {
         display: flex;
         flex-direction: column;
-        align-items: end;
-        justify-content: right;
+        align-items: center;  /* Ajuste para centralizar o conteúdo */
         gap: 1rem;
-        width: 100%;
+        width: 90%;  /* Ajuste para ocupar 90% da largura */
     }
     
     .form form {
         display: flex;
         flex-direction: column;
-        align-items:end;
-        justify-content: right;
-        width: 100%;
+        align-items: center;  /* Ajuste para centralizar o conteúdo */
+        width: 90%;  /* Ajuste para ocupar 90% da largura */
         gap: 1rem;
     }
 
     .form input[type="email"] {
-        width: 100%;
-    }    
+        width: 100%;  /* Ajuste para ocupar 100% da largura */
+    }
 }

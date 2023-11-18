@@ -1,6 +1,9 @@
 import styles from './Founders.module.css';
-import personValConceicao from './../assets/persons/valConceicao.jpeg';
-import personVivianeCarvalho from './../assets/persons/vivianeCarvalho.jpeg';
+import iconSquad from './../assets/icons/icon-squad.svg';
+import iconKnow from './../assets/icons/icon-know.svg';
+import iconBegin from './../assets/icons/icon-begin.svg';
+import iconDeveloper from './../assets/icons/icon-developer.svg';
+import iconNetwork from './../assets/icons/icon-network.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -12,19 +15,41 @@ const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            photo: personValConceicao,
-            name: "Valmilton Conceição Pereira dos Santos",
-            role: "Val Conceição",
-            companies: "Candomblecista, Drº Honoris Causa pela Faculdade Febraica (RJ), Medalha de Ordem ao Mérito da Cultura de Feira de Santana, Medalha Nelson Mandela, Músico, Produtor de Eventos Culturais, Gestor de Espaços Culturais."
+            photo: iconSquad,
+            role: "Forme seu time",
+            companies: "Os participantes têm a opção de formar equipes com base em suas habilidades e interesses. Programadores, designers, artistas e músicos podem se unir para criar uma equipe equilibrada."
         },
     },
     {
         id: 2,
         talent: {
-            photo: personVivianeCarvalho,
-            name: "Viviane Carvalho de Jesus Dias",
-            role: "Vivi Sorriso",
-            companies: "Modelo Fotográfico, Maquiadora especializada em pele negra, Ativista Social e Cultural, Promotora de Eventos e Dançarina."
+            photo: iconKnow,
+            role: "Conheça o tema",
+            companies: "O evento começa com a revelação de um tema específico, que serve como base para a criação dos jogos. O tema pode ser amplo e aberto à interpretação, estimulando a criatividade dos participantes."
+        },
+    },
+    {
+        id: 3,
+        talent: {
+            photo: iconBegin,
+            role: "Comece na Jam",
+            companies: "Com o tema revelado e as equipes formadas, a contagem regressiva começa. Os participantes têm um tempo limitado para idealizar, desenvolver e finalizar seus jogos."
+        },
+    },
+    {
+        id: 4,
+        talent: {
+            photo: iconDeveloper,
+            role: "Desenvolva bem rápido",
+            companies: "Durante a Game Jam, as equipes trabalham arduamente para criar protótipos jogáveis de seus jogos. A pressão do tempo incentiva soluções criativas e inovações rápidas."
+        },
+    },
+    {
+        id: 5,
+        talent: {
+            photo: iconNetwork,
+            role: "Construa redes",
+            companies: "A Game Jam não é apenas sobre desenvolvimento de jogos! É também uma oportunidade para os participantes se conectarem, compartilharem ideias e aprenderem uns com os outros."
         },
     },
 ];
@@ -32,16 +57,16 @@ const dataCardsTalents = [
 export function Founders() {
 
     return (
-        <section className={styles.talents} id="founders">
+        <section className={styles.talents} id="operation">
             <article className={styles.container}>
-                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Primeiros Passos<span><br />Nossos Fundadores</span></motion.h2>
+                <motion.h2 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>Como funciona?</motion.h2>
                 <div className={styles.content}>
                     <Swiper
                         modules={[Navigation]}
                         navigation
                         breakpoints={{
                             1024: {
-                                slidesPerView: 2,
+                                slidesPerView: 3,
                                 spaceBetween: 10,
                             },
                             640: {

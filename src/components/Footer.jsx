@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
 import estatutoMoviafro from './../assets/EstatutoMoviafro.pdf';
-import olloLogo from './../assets/moviafro.svg';
+import logo from './../assets/black-xp-logo.svg';
 import { useState } from 'react';
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react';
 
@@ -36,52 +36,31 @@ export function Footer() {
 
     return (
         <footer className={styles.footer} id="footer">
-            {/* <div className={styles.containerFirst}>
-                <article>
-                    <img src={olloIllustrationBigEyes} alt="Ilustração Ollo" />
-                </article>
-                <div className={styles.sectionButtons}>
-                    <h2>Estamos criando legados. Seja Moviafro!</h2>
-
-                    <button
-                        className={styles.buttonBackground} >
-                        Quero fazer parte
-                    </button>
-
-                    <button
-                        className={styles.buttonHasBorder} >
-                        Quero apoiar
-                    </button>
-
-                </div>
-            </div> */}
-            {/* <hr className={styles.line} /> */}
             <div className={styles.containerSecond}>
                 <div className={styles.sectionButtons}>
-                    <h2>Levantemos uns aos outros.<br />Seja Moviafro!</h2>
+                    <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
                         <a href="https://wa.link/u25dxd" target="_blank">
-                            Quero fazer parte
+                            Quero participar!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
                         <a href="https://wa.link/t2c44e" target="_blank">
-                            Quero apoiar
+                            Quero patrocinar!
                         </a>
                     </button>
                 </div>
                 <div className={styles.form}>
-                    <img src={olloLogo} alt="Logo Ollo" />
-                    <h3>Entre em contato através das redes sociais.</h3>
+                    <img src={logo} alt="Logo Black XP" title="Logo Black XP" />
+                    <h3>Ficou com alguma dúvida? Fala com a gente!</h3>
                     <div className={styles.contact}>
-                        <a href={estatutoMoviafro} target="_blank" download><p>Estatuto da Associação Cultural Moviafro</p></a>
-                        <a href="mailto:moviafrofsa@gmail.com" target="_blank"><p>moviafrofsa@gmail.com</p></a>
+                        <a href={estatutoMoviafro} target="_blank" download><p>Termos e Condições</p></a>
+                        <a href="mailto:moviafrofsa@gmail.com" target="_blank"><p>aimotech@gmail.com</p></a>
                         <div className={styles.social}>
-                            <a href="https://www.instagram.com/moviafrofsa.oficial" target="_blank"><InstagramLogo size={30} weight="light" /></a>
+                            <a href="https://www.instagram.com/aimo.tech" target="_blank"><InstagramLogo size={30} weight="light" /></a>
                             <a href="/wa.link/qsan19" target="_blank"><WhatsappLogo size={30} weight="fill" /></a>
                         </div>
-
                     </div>
                 </div>
             </div>

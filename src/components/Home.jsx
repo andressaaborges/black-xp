@@ -1,6 +1,8 @@
 import styles from './Home.module.css';
-import moviafroLogo from './../assets/moviafro.svg';
 import moviafroSlogan from './../assets/moviafroSlogan.svg';
+import blackxp from './../assets/blackXp.svg';
+import patterns2 from './../assets/patterns/2.png';
+import patterns5 from './../assets/patterns/5.png';
 import { motion } from 'framer-motion';
 import { Pause, Play } from '@phosphor-icons/react';
 import { useState, useRef, useEffect } from 'react';
@@ -79,7 +81,7 @@ export function Home() {
             do {
                 randomIndex = Math.floor(Math.random() * songs.length);
             } while (randomIndex === lastSongIndex);
-            
+
             setLastSongIndex(randomIndex);
 
             audio.src = songs[randomIndex].url;
@@ -101,35 +103,47 @@ export function Home() {
 
     return (
         <section className={styles.home} id="home">
-            <motion.img className={styles.olloLogo} src={moviafroSlogan} alt="Lema: Levantemos uns aos outros" title="Lema: Levantemos uns aos outros" whileInView={{
+            <motion.img className={styles.patterns} src={patterns5} alt="Padrão geométrico da BlackXP" title="Padrão geométrico da BlackXP" whileInView={{
+                scale: [1, 2, 2, 1, 1],
+                rotate: [0, 0, 270, 270, 0],
+                borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+            }} />
+            <motion.img className={styles.patterns2} src={patterns2} alt="Padrão geométrico da BlackXP" title="Padrão geométrico da BlackXP" whileInView={{
                 scale: [1, 2, 2, 1, 1],
                 rotate: [0, 0, 270, 270, 0],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
             }} />
             <article className={styles.content}>
                 <div className={styles.textImg}>
-                    <motion.img className={styles.afro} src={moviafroLogo} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
+                    <motion.img className={styles.logo} src={blackxp} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
                         scale: [1, 2, 2, 1, 1],
                         rotate: [0, 0, 270, 270, 0],
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                     }} />
                     <div className={styles.titles}>
-                        <h1>Associação Cultural Moviafro: Oito Anos Resistindo, Persistindo e Re-existindo</h1>
-                        <h5 className={styles.h5En}>Celebrando a herança ancestral, comprometidos com a luta antirracista em Feira de Santana - BA.</h5>
+                        {/* <h1>Ampliando as oportunidades para jovens negros na indústria de tecnologia e jogos</h1> */}
+                        {/* <h5 className={styles.h5En}>Transforme seu Futuro - Diversidade, Inovação e Oportunidades em Foco. Inscrições Abertas!</h5> */}
                     </div>
                 </div>
                 <div className={styles.buttonsSection}>
-                    <a href={"#history"}
-                        className={styles.buttonBackground}>
-                        Conheça nossa História
-                    </a>
+                    <button className={styles.buttonBackground}>
+                        <a href={"#what"}>
+                            Inscreva-se agora!
+                        </a>
+                    </button>
 
-                    <a className={styles.buttonHasBorder} onClick={handlePlayer}>
+                    <button className={styles.buttonHasBorder}>
+                        <a href={"#what"}>
+                            Saiba mais!
+                        </a>
+                    </button>
+
+                    {/* <a className={styles.buttonHasBorder} onClick={handlePlayer}>
                         {icon}
                         <div className={styles.buttonTextContainer}>
                             <p className={hasClicked ? styles.buttonText : ""}>{musicName}</p>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
             </article>
         </section>

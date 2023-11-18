@@ -8,7 +8,7 @@ export function Card({ hasBorderLeft = true, content }) {
                 <p>{content.paragraph}</p>
             </div>
             <footer className={styles.footer}>
-                <img className={styles.image} src={content.photo} alt="História da Moviafro" title="História da Moviafro" />
+                {/* <img className={styles.image} src={content.photo} alt="História da Moviafro" title="História da Moviafro" /> */}
             </footer>
         </section>
     )
