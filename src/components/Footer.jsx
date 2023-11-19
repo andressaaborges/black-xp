@@ -40,13 +40,13 @@ export function Footer() {
                 <div className={styles.sectionButtons}>
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
-                        <a href="https://wa.link/u25dxd" target="_blank">
+                        <a href="/" target="_blank">
                             Quero participar!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
-                        <a href="https://wa.link/t2c44e" target="_blank">
+                        <a href="/" target="_blank">
                             Quero patrocinar!
                         </a>
                     </button>

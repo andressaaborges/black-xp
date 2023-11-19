@@ -1,9 +1,5 @@
 import { CardTalents } from './CardTalents';
 import styles from './Inspirations.module.css';
-import personIvannide from './../assets/persons/ivannide-rodrigues-doutora-honoris-causa.jpg';
-import personNegraJho from './../assets/persons/negra-jhô.png';
-import personDanielPintto from './../assets/persons/prof-daniel-pintto.jpeg';
-import personChica from './../assets/persons/chica-do-pandeiro.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -14,7 +10,7 @@ const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            photo: personIvannide,
+            // photo: personIvannide,
             name: "Ivannide Rodrigues",
             surname: "Santa Barbara",
             companies: "Doutora Honoris Causa"
@@ -23,7 +19,7 @@ const dataCardsTalents = [
     {
         id: 2,
         talent: {
-            photo: personNegraJho,
+            // photo: personNegraJho,
             name: "Negra",
             surname: "Jhô",
             companies: "Criadora do Instituto Kimundo"
@@ -32,7 +28,7 @@ const dataCardsTalents = [
     {
         id: 3,
         talent: {
-            photo: personDanielPintto,
+            // photo: personDanielPintto,
             name: "Daniel",
             surname: "Pintto",
             companies: "Professor e Escritor"
@@ -41,7 +37,7 @@ const dataCardsTalents = [
     {
         id: 4,
         talent: {
-            photo: personChica,
+            // photo: personChica,
             name: "Chica",
             surname: "do Pandeiro",
             companies: "Referência do Samba na Bahia"

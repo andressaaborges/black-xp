@@ -4,13 +4,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {Pagination } from 'swiper';
-import marcelo from "../assets/persons/marceloSilva.jpg";
+import marceloSilva from "../assets/persons/marceloSilva.jpg";
+import faustoVanin from "../assets/persons/fausto-vanin.jpeg";
+import juliendriosOliveira from "../assets/persons/juliendriosOliveira.png";
 
 const dataCardsAttributes = [
     {
         id: 1,
         content: {
-            photo: marcelo,
+            photo: marceloSilva,
             title: "Inglês de Nível Básico para Projetos em Tecnologia",
             role: "Karina Santanna",
             date: "03 de Dezembro - 18hs",
@@ -20,7 +22,7 @@ const dataCardsAttributes = [
     {
         id: 2,
         content: {
-            photo: marcelo,
+            photo: marceloSilva,
             title: "Estratégias de Monetização através da Web3 Aplicada à Jogos",
             role: "Marcelo Silva",
             date: "04 de Dezembro - 19hs",
@@ -30,7 +32,7 @@ const dataCardsAttributes = [
     {
         id: 3,
         content: {
-            photo: marcelo,
+            photo: juliendriosOliveira,
             title: "Concept Art para Design de Personagens e Cenários",
             role: "Juliendrios Oliveira • End_Z",
             date: "05 de Dezembro - 19hs",
@@ -40,17 +42,17 @@ const dataCardsAttributes = [
     {
         id: 4,
         content: {
-            photo: marcelo,
+            photo: faustoVanin,
             title: "Como Criar Tokens Para o Seu Jogo ",
             role: "Fausto Vanin",
             date: "06 de Dezembro - 19hs",
-            text: "Bio Fausto."
+            text: "Fausto Vanin é agente da transformação digital. Atua em iniciativas que usam a tecnologia para mudar o contexto social em que vive. Possui mestrado em Informática Aplicada pela PUC-PR e certificação em Inovação e Estratégia pelo MIT Sloan School of Management. Em processo de doutoramento no uso de Blockchain na área da saúde pela Universidade do Vale dos Sinos, Co-fundador da OnePercent, empresa que desenvolve soluções  com a tecnologia Blockchain e da Lanceiros, empresa de tecnologia formada por pessoas pretas e de periferia. Mentor, palestrante e ativista por causas de impacto social, ambiental em redução de desigualdades."
         },
     },
     {
         id: 5,
         content: {
-            photo: marcelo,
+            photo: marceloSilva,
             title: "Engines de Jogo para a Game Jam",
             role: "Clara Matos",
             date: "07 de Dezembro - 19hs",

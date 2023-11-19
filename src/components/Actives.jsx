@@ -1,12 +1,5 @@
 import { CardTalents } from './CardTalents';
 import styles from './Actives.module.css';
-import personValConceicao from './../assets/persons/valConceicao.jpeg';
-import personDionorina from './../assets/persons/dionorina.jpg';
-import personGilsam from './../assets/persons/gilsam.jpg';
-import personHelyPedreira from './../assets/persons/hely-pedreira.jpg';
-import personMaeGraca from './../assets/persons/mae-graca.jpg';
-import personEkedePatricia from './../assets/persons/ekede-patricia-pinheiro.jpg';
-import personFlavia from './../assets/persons/flavia-sacramento.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -17,7 +10,7 @@ const dataCardsActives = [
     {
         id: 1,
         talent: {
-            photo: personValConceicao,
+            // photo: ,
             name: "Val",
             surname: "Conceição",
             companies: "Doutor Honoris Causa"
@@ -26,7 +19,7 @@ const dataCardsActives = [
     {
         id: 2,
         talent: {
-            photo: personMaeGraca,
+            // photo: personMaeGraca,
             name: "Mãe Graça",
             surname: "de Nanã",
             companies: "Pedagoga e Ialorixá do Ilê Axé Gilodefan"
@@ -35,7 +28,7 @@ const dataCardsActives = [
     {
         id: 3,
         talent: {
-            photo: personGilsam,
+            // photo: personGilsam,
             name: "Gilsam",
             surname: "Reggaeman do Brasil",
             companies: "Cantor e Compositor"
@@ -44,7 +37,7 @@ const dataCardsActives = [
     {
         id: 4,
         talent: {
-            photo: personHelyPedreira,
+            // photo: personHelyPedreira,
             name: "Hely",
             surname: "Pedreira",
             companies: "Pedagoga e Mestra em Educação"
@@ -53,7 +46,7 @@ const dataCardsActives = [
     {
         id: 5,
         talent: {
-            photo: personDionorina,
+            // photo: personDionorina,
             name: "Dionorina",
             surname: "",
             companies: "Musicista • Reggae Music Brasil"
@@ -62,7 +55,7 @@ const dataCardsActives = [
     {
         id: 6,
         talent: {
-            photo: personEkedePatricia,
+            // photo: personEkedePatricia,
             name: "Ekede Patrícia",
             surname: "Pinheiro",
             companies: "Delegada Civil"
@@ -71,7 +64,7 @@ const dataCardsActives = [
     {
         id: 7,
         talent: {
-            photo: personFlavia,
+            // photo: personFlavia,
             name: "Flávia",
             surname: "Sacramento",
             companies: "Estilista"
