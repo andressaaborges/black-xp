@@ -1,5 +1,4 @@
 import styles from './Home.module.css';
-import moviafroSlogan from './../assets/moviafroSlogan.svg';
 import blackxp from './../assets/blackXp.svg';
 import patterns2 from './../assets/patterns/9.png';
 import patterns5 from './../assets/patterns/4.png';
