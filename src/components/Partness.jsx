@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import polkadot from "./../assets/partness/Polkadot_Logo_Horizontal_Black.svg";
 import refaz from "./../assets/partness/Profile_Refaz.png";
+import onePercent from "./../assets/partness/logo-one-percent.svg";
 import polkaPink from "./../assets/partness/Polkadot_Logo_Horizontal_WhiteOnPink.png";
 
 export function Partness() {
@@ -13,27 +14,12 @@ export function Partness() {
         {
             id: 1,
             src: refaz,
-            alt: "Logo da Refaz",
+            alt: "Logo Refaz",
         },
         {
             id: 2,
-            src: polkadot,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 3,
-            src: polkaPink,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 5,
-            src: refaz,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 6,
-            src: refaz,
-            alt: "Logo da Refaz",
+            src: onePercent,
+            alt: "Logo One Percent",
         },
     ];
 
@@ -41,27 +27,7 @@ export function Partness() {
         {
             id: 1,
             src: polkadot,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 2,
-            src: refaz,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 3,
-            src: polkaPink,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 5,
-            src: refaz,
-            alt: "Logo da Refaz",
-        },
-        {
-            id: 6,
-            src: refaz,
-            alt: "Logo da Refaz",
+            alt: "Logo Polkadot",
         },
     ];
 
@@ -76,8 +42,16 @@ export function Partness() {
                         modules={[Navigation]}
                         navigation
                         breakpoints={{
-                            1024: {
+                            1920: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
+                            1440: {
                                 slidesPerView: 4,
+                                spaceBetween: 10,
+                            },
+                            1024: {
+                                slidesPerView: 3,
                                 spaceBetween: 10,
                             },
                             640: {
@@ -90,7 +64,9 @@ export function Partness() {
                     <div className={styles.imgs}>
                         {institutionalSupportLogos.map((logo) => (
                             <SwiperSlide key={logo.id} className={styles.swiperSlide}>
-                                <img src={logo.src} alt={`Logo`} title={`Logo`} />
+                            <div className={styles.containerImg}>
+                                <img src={logo.src} alt={logo.alt} title={logo.alt} />
+                                </div>
                             </SwiperSlide>
                         ))}
                         </div>
@@ -103,8 +79,16 @@ export function Partness() {
                         modules={[Navigation]}
                         navigation
                         breakpoints={{
-                            1024: {
+                            1920: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
+                            1440: {
                                 slidesPerView: 4,
+                                spaceBetween: 10,
+                            },
+                            1024: {
+                                slidesPerView: 3,
                                 spaceBetween: 10,
                             },
                             640: {
@@ -117,7 +101,9 @@ export function Partness() {
                         <div className={styles.imgs}>
                             {sponsorshipLogos.map((logo, index) => (
                                 <SwiperSlide key={index}>
-                                    <img src={logo.src} alt={`Logo ${index + 1}`} />
+                                <div className={styles.containerImg}>
+                                    <img src={logo.src} alt={logo.alt} title={logo.alt} />
+                                    </div>
                                 </SwiperSlide>
                             ))}
                         </div>
