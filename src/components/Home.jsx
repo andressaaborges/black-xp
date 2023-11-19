@@ -1,8 +1,8 @@
 import styles from './Home.module.css';
 import moviafroSlogan from './../assets/moviafroSlogan.svg';
 import blackxp from './../assets/blackXp.svg';
-import patterns2 from './../assets/patterns/2.png';
-import patterns5 from './../assets/patterns/5.png';
+import patterns2 from './../assets/patterns/9.png';
+import patterns5 from './../assets/patterns/4.png';
 import { motion } from 'framer-motion';
 import { Pause, Play } from '@phosphor-icons/react';
 import { useState, useRef, useEffect } from 'react';
@@ -115,7 +115,7 @@ export function Home() {
             }} />
             <article className={styles.content}>
                 <div className={styles.textImg}>
-                    <motion.img className={styles.logo} src={blackxp} alt="Logo Moviafro" title="Logo Moviafro" whileInView={{
+                    <motion.img className={styles.logo} src={blackxp} alt="Logo Black XP" title="Logo Black XP" whileInView={{
                         scale: [1, 2, 2, 1, 1],
                         rotate: [0, 0, 270, 270, 0],
                         borderRadius: ["20%", "20%", "50%", "50%", "20%"],

@@ -1,5 +1,5 @@
 .services {
-    background: var(--blue-150);
+    background: var(--blue-200);
     height: 100%;
     width: 100%;
     position: relative;
@@ -22,7 +22,7 @@
     /* transform: skewY(-10deg); */
     /* transform: skewX(10deg); */
     width: 100%;
-    background: var(--blue-400);
+    background: var(--blue-500);
     z-index: -1;
 }
 

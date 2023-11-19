@@ -51,6 +51,11 @@
         gap: 1rem;
     }
 
+    .container {
+        height: auto; /* Ajustei a altura */
+        max-width:21rem /* Ajustei a largura */
+    }
+
     .text p {
         font-size: 1.2rem;
     }

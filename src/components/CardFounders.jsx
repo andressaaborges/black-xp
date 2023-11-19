@@ -1,5 +1,5 @@
 import styles from './CardFounders.module.css';
-import patterns2 from './../assets/patterns/2.png';
+import patterns2 from './../assets/patterns/6.png';
 import { motion } from 'framer-motion';
 
 export function CardFounders({ talent }) {

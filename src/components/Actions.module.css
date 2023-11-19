@@ -9,7 +9,7 @@
     font-weight: 500;
     font-size: 3rem;
     line-height: 150%;
-    color: var(--blue-400);
+    color: var(--blue-500);
     margin: 6.5rem 16rem 5rem;
 }
 
@@ -65,7 +65,7 @@
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 155%;
-    color: var(--blue-400);
+    color: var(--blue-500);
     /* width: 100%; */
 }
 

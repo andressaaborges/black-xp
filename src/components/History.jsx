@@ -1,6 +1,4 @@
 import styles from './History.module.css';
-import story1 from './../assets/story/story-1.png';
-import story2 from './../assets/story/story-2.svg';
 import patterns5 from './../assets/patterns/5.png';
 import { Card } from './Card';
 import { motion } from "framer-motion";

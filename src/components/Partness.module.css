@@ -16,7 +16,7 @@
     font-weight: 500;
     font-size: 3rem;
     line-height: 150%;
-    color: var(--blue-400);
+    color: var(--blue-500);
     margin: 5rem 10rem 0;
 }
 
@@ -26,7 +26,7 @@
 
 .container h3 {
     font-size: 2rem;
-    color: var(--blue-300);
+    color: var(--blue-400);
     margin-bottom: 1rem;
     font-weight: 500;
 }

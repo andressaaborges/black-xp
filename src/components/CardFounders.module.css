@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     margin: 4rem 0 4rem 0;
+    overflow: hidden;
 }
 
 .imgFounders {
@@ -35,7 +36,7 @@
 .containerFounders h1 {
     font-weight: 700;
     line-height: 115%;
-    color: var(--blue-100);
+    color: var(--blue-500);
     font-size: 1.9rem;
     padding-bottom: 0.5rem;
     text-align: left;
@@ -45,12 +46,12 @@
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 150%;
-    color: var(--blue-100);
+    color: var(--white);
     text-align: left;
 }
 
 .containerFounders p {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 117%;
     color: var(--white);
@@ -61,8 +62,8 @@
     /* margin: 10rem 0 0 -10rem; */
     width: 30%;
     position: absolute;
-    right: 1%;
-    bottom: 1%;
+    right: 0%;
+    bottom: 0%;
 }
 
 @media (max-width: 1120px) {
