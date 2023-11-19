@@ -6,8 +6,9 @@
 }
 
 .imgFounders {
-    width: 1.8rem;
+    /* width: 1.8rem; */
     /* height: 2.8rem; */
+    color: var(--white);
 }
 
 

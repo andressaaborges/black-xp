@@ -10,12 +10,13 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import { motion } from 'framer-motion';
 import { CardFounders } from './CardFounders';
+import { CodeSimple, Heart, Play, Target, UsersThree } from '@phosphor-icons/react';
 
 const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            photo: iconSquad,
+            photo: <UsersThree size={30} />,
             role: "Forme seu time",
             companies: "Os participantes têm a opção de formar equipes com base em suas habilidades e interesses. Programadores, designers, artistas e músicos podem se unir para criar uma equipe equilibrada."
         },
@@ -23,7 +24,7 @@ const dataCardsTalents = [
     {
         id: 2,
         talent: {
-            photo: iconKnow,
+            photo: <Target size={30} />,
             role: "Conheça o tema",
             companies: "O evento começa com a revelação de um tema específico, que serve como base para a criação dos jogos. O tema pode ser amplo e aberto à interpretação, estimulando a criatividade dos participantes."
         },
@@ -31,7 +32,7 @@ const dataCardsTalents = [
     {
         id: 3,
         talent: {
-            photo: iconBegin,
+            photo: <Play size={30} />,
             role: "Comece na Jam",
             companies: "Com o tema revelado e as equipes formadas, a contagem regressiva começa. Os participantes têm um tempo limitado para idealizar, desenvolver e finalizar seus jogos."
         },
@@ -39,7 +40,7 @@ const dataCardsTalents = [
     {
         id: 4,
         talent: {
-            photo: iconDeveloper,
+            photo: <CodeSimple size={30} />,
             role: "Desenvolva bem rápido",
             companies: "Durante a Game Jam, as equipes trabalham arduamente para criar protótipos jogáveis de seus jogos. A pressão do tempo incentiva soluções criativas e inovações rápidas."
         },
@@ -47,7 +48,7 @@ const dataCardsTalents = [
     {
         id: 5,
         talent: {
-            photo: iconNetwork,
+            photo: <Heart size={30} />,
             role: "Construa redes",
             companies: "A Game Jam não é apenas sobre desenvolvimento de jogos! É também uma oportunidade para os participantes se conectarem, compartilharem ideias e aprenderem uns com os outros."
         },

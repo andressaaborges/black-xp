@@ -7,7 +7,7 @@ export function CardFounders({ talent }) {
         <section className={styles.cardFounders}>
             <article className={styles.containerFounders}>
                 <div className={styles.dataFounders}>
-                    <img className={styles.imgFounders} src={talent.photo} alt={talent.name} />
+                    <div className={styles.imgFounders}>{talent.photo}</div>
                     {/* <h1>{talent.name}</h1> */}
                     <h4>{talent.role}</h4>
                     <p>{talent.companies}</p>
