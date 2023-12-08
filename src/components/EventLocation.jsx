@@ -20,7 +20,7 @@ const EventLocation = () => {
         },
         {
             id: 3,
-            title: '08 e 12 de Janeiro',
+            title: '12 a 14 de Janeiro',
             description: 'Dia cheio de atividades e diversão.',
             icon: <Calendar size={30} />,
         },
