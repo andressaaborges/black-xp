@@ -7,7 +7,8 @@ import { Navigation } from 'swiper';
 import polkadot from "./../assets/partness/Polkadot_Logo_Horizontal_Black.svg";
 import refaz from "./../assets/partness/Profile_Refaz.png";
 import onePercent from "./../assets/partness/logo-one-percent.svg";
-import polkaPink from "./../assets/partness/Polkadot_Logo_Horizontal_WhiteOnPink.png";
+import planInternational from "./../assets/partness/planInternational.png";
+import boraAmbev from "./../assets/partness/boraAmbev.jpg";
 
 export function Partness() {
     const institutionalSupportLogos = [
@@ -28,6 +29,16 @@ export function Partness() {
             id: 1,
             src: polkadot,
             alt: "Logo Polkadot",
+        },
+        {
+            id: 2,
+            src: planInternational,
+            alt: "Logo Plan International",
+        },
+        {
+            id: 3,
+            src: boraAmbev,
+            alt: "Logo Bora Ambev",
         },
     ];
 
