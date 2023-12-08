@@ -35,18 +35,16 @@ const EventLocation = () => {
 
                 <div className={styles.cardContainer}>
                     {locations.map((location, index) => (
-                        <motion.div
+                        <div
                             key={location.id}
                             className={styles.card}
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 3 * 0.2 }}
                         >
                             <div className={styles.icon}>{location.icon}</div>
-                            <h3>{location.title}</h3>
+                            <motion.h3 initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, scale: 1, y: 0}}
+                            transition={{ duration: 0.5, delay: 2 * 0.2 }}>{location.title}</motion.h3>
                             <p>{location.description}</p>
                             <img src={pattern4} alt="Padrão geométrico Black XP" title="Padrão geométrico Black XP" />
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
 

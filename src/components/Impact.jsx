@@ -10,26 +10,31 @@ import { Baby, BowlFood, GameController, IdentificationBadge, UserFocus } from '
 export function Impact() {
     const cardsData = [
         {
+            id: 1,
             icon: <IdentificationBadge size={30} />,
             title: 'Autodeclaração',
             description: 'Se você é uma pessoa autodeclarada preta, parda ou indígena, este evento é para você.',
         },
         {
+            id: 2,
             icon: <UserFocus size={30} />,
             title: 'Idade',
             description: 'Este evento é destinado a pessoas com idade entre 16 e 29 anos que amam games.',
         },
         {
+            id: 3,
             icon: <GameController size={30} />,
             title: 'Modalidade',
             description: 'Escolha entre participação online, híbrida ou presencial.',
         },
         {
+            id: 4,
             icon: <Baby size={30} />,
             title: 'Espaço Kids',
             description: 'Informe se precisa de suporte do nosso espaço kids, incluindo a idade da criança.',
         },
         {
+            id: 5,
             icon: <BowlFood size={30} />,
             title: 'Alimentação',
             description: 'Informe sobre alguma restrição alimentar para garantir uma experiência personalizada.',
@@ -75,7 +80,7 @@ export function Impact() {
                             className="mySwiper">
 
                             {cardsData.map((card, index) => (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={card.id}>
                                     <CardOperation icon={card.icon} title={card.title} description={card.description} />
                                 </SwiperSlide>
                             ))}
