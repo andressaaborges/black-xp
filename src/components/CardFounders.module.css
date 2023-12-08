@@ -53,13 +53,12 @@
 .containerFounders p {
     font-weight: 500;
     font-size: 1rem;
-    line-height: 117%;
+    line-height: 155%;
     color: var(--white);
     text-align: left;
 }
 
 .patterns2 {
-    /* margin: 10rem 0 0 -10rem; */
     width: 30%;
     position: absolute;
     right: 0%;
@@ -71,13 +70,7 @@
         flex-direction: column;
     }
 
-    /* .imgFounders {
-        margin-top: -4rem;
-        width: 11.8em;
-        height: 11.8rem;
-        object-fit: cover;
-        aspect-ratio: 1/1;
-        border-radius: 50%;
-        border-left: 0.5rem solid var(--blue-400);
-    } */
+    .containerFounders p {
+        font-size: 1.2rem;
+    }
 }

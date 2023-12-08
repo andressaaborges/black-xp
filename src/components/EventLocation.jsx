@@ -34,7 +34,7 @@ const EventLocation = () => {
                 </div>
 
                 <div className={styles.cardContainer}>
-                    {locations.map((location, index) => (
+                    {locations.map((location) => (
                         <div
                             key={location.id}
                             className={styles.card}

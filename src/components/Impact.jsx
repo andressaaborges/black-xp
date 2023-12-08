@@ -79,7 +79,7 @@ export function Impact() {
                             modules={[EffectCreative]}
                             className="mySwiper">
 
-                            {cardsData.map((card, index) => (
+                            {cardsData.map((card) => (
                                 <SwiperSlide key={card.id}>
                                     <CardOperation icon={card.icon} title={card.title} description={card.description} />
                                 </SwiperSlide>
@@ -99,9 +99,9 @@ export function Impact() {
                     </div>
                     <motion.div className={styles.cardsSectionOperation} initial={{ opacity: 0, scale: 0, x: 500, y: -50 }} whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }} transition={{ duration: 0.6 }}>
 
-                        {cardsData.map((card, index) => (
+                        {cardsData.map((card) => (
 
-                                <CardOperation key={index} icon={card.icon} title={card.title} description={card.description} />
+                            <CardOperation key={card.id} icon={card.icon} title={card.title} description={card.description} />
 
                         ))}
 
