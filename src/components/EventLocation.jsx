@@ -6,18 +6,21 @@ import pattern4 from "../assets/patterns/2.png";
 
 const EventLocation = () => {
     const locations = [
-        {
+        {   
+            id: 1,
             title: 'Online',
             description: 'Participe do evento online no conforto da sua casa.',
             icon: <ArrowCircleRight size={30} />,
         },
         {
+            id: 2,
             title: 'Espaço Gamer da Arena Fonte Nova - Salvador',
             description: 'Junte-se a nós no Espaço Gamer da Arena Fonte Nova em Salvador.',
             icon: <MapPinLine size={30} />,
         },
         {
-            title: '9 e 10 de dezembro',
+            id: 3,
+            title: '08 e 12 de Janeiro',
             description: 'Dia cheio de atividades e diversão.',
             icon: <Calendar size={30} />,
         },
@@ -33,11 +36,11 @@ const EventLocation = () => {
                 <div className={styles.cardContainer}>
                     {locations.map((location, index) => (
                         <motion.div
-                            key={index}
+                            key={location.id}
                             className={styles.card}
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.2 }}
+                            transition={{ duration: 0.5, delay: 3 * 0.2 }}
                         >
                             <div className={styles.icon}>{location.icon}</div>
                             <h3>{location.title}</h3>
