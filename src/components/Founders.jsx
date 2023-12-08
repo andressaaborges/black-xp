@@ -1,9 +1,4 @@
 import styles from './Founders.module.css';
-import iconSquad from './../assets/icons/icon-squad.svg';
-import iconKnow from './../assets/icons/icon-know.svg';
-import iconBegin from './../assets/icons/icon-begin.svg';
-import iconDeveloper from './../assets/icons/icon-developer.svg';
-import iconNetwork from './../assets/icons/icon-network.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
