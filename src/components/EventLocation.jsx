@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Calendar, ArrowCircleRight, MapPinLine } from '@phosphor-icons/react';
+import { Calendar, MapPinLine, Laptop } from '@phosphor-icons/react';
 import styles from './EventLocation.module.css';
 import pattern4 from "../assets/patterns/2.png";
 
@@ -10,7 +10,7 @@ const EventLocation = () => {
             id: 1,
             title: 'Online',
             description: 'Participe do evento online no conforto da sua casa.',
-            icon: <ArrowCircleRight size={30} />,
+            icon: <Laptop size={30} />,
         },
         {
             id: 2,
