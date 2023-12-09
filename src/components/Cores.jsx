@@ -8,19 +8,19 @@ import marceloSilva from "../assets/persons/marceloSilva.jpg";
 import faustoVanin from "../assets/persons/fausto-vanin.jpeg";
 import juliendriosOliveira from "../assets/persons/juliendriosOliveira.png";
 import claraMatos from "../assets/persons/claraMatos.jpeg";
-
+import karinaSantana from "../assets/persons/karinaSantana.webp";
 
 const dataCardsAttributes = [
-    // {
-    //     id: 1,
-    //     content: {
-    //         photo: marceloSilva,
-    //         title: "Inglês de Nível Básico para Projetos em Tecnologia",
-    //         role: "Karina Santanna",
-    //         date: "03 de Dezembro - 18hs",
-    //         text: "Professora de inglês com mais de 10 anos de experiência, atuando na cidade de São Paulo. Desde 2021, ela lidera sua própria empresa de ensino, que começou com apenas 3 alunos e hoje atende a mais de 300. Especializada em inglês instrumental, jurídico e para negócios, Karina se destaca por sua abordagem inovadora, oferecendo aulas online para pessoas de baixa renda. Além de ser mãe, ela é uma ativista engajada na luta contra a desigualdade no acesso ao ensino de línguas."
-    //     },
-    // },
+    {
+        id: 1,
+        content: {
+            photo: karinaSantana,
+            title: "Inglês de Nível Básico para Projetos em Tecnologia",
+            role: "Karina Santanna",
+            date: "03 de Dezembro - 18hs",
+            text: "Professora de inglês com mais de 10 anos de experiência, atuando na cidade de São Paulo. Desde 2021, ela lidera sua própria empresa de ensino, que começou com apenas 3 alunos e hoje atende a mais de 300. Especializada em inglês instrumental, jurídico e para negócios, Karina se destaca por sua abordagem inovadora, oferecendo aulas online para pessoas de baixa renda. Além de ser mãe, ela é uma ativista engajada na luta contra a desigualdade no acesso ao ensino de línguas."
+        },
+    },
     {
         id: 2,
         content: {
