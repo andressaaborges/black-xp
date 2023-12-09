@@ -11,13 +11,13 @@ export function Footer() {
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
                         <a href="/" target="_blank">
-                            Quero participar!
+                            Quero participar presencial!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
                         <a href="/" target="_blank">
-                            Quero patrocinar!
+                            Quero participar online!
                         </a>
                     </button>
                 </div>

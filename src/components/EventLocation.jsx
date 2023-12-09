@@ -14,8 +14,8 @@ const EventLocation = () => {
         },
         {
             id: 2,
-            title: 'Espaço Gamer da Arena Fonte Nova - Salvador',
-            description: 'Junte-se a nós no Espaço Gamer da Arena Fonte Nova em Salvador.',
+            title: 'Nave Arena CWG Arena Fonte Nova - Salvador',
+            description: 'Junte-se a nós no Nave Arena CWG Arena Fonte Nova em Salvador.',
             icon: <MapPinLine size={30} />,
         },
         {

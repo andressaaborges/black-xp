@@ -133,7 +133,7 @@ export function Home() {
 
                     <button className={styles.buttonHasBorder}>
                         <a href={"#what"}>
-                            Saiba mais!
+                            Ou participe Online!
                         </a>
                     </button>
 
