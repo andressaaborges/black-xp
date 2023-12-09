@@ -126,14 +126,14 @@ export function Home() {
                 </div>
                 <div className={styles.buttonsSection}>
                     <button className={styles.buttonBackground}>
-                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
-                            Inscreva-se agora!
+                        <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832">
+                        Inscreva-se agora!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
-                        <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832">
-                            Ou participe Online!
+                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
+                            Participe Presencial!
                         </a>
                     </button>
 
