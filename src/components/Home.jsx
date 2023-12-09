@@ -15,9 +15,8 @@ export function Home() {
         hidden: { opacity: 0, scale: 0 },
         visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
         move: {
-            x: [0, -20, 20, -20, 20, 0],
-            y: [0, -20, 20, -20, 20, 0],
-            transition: { duration: 2, ease: 'easeInOut', loop: Infinity },
+            x: [0, 50, -50, 50, -50, 0],
+            transition: { duration: 4, ease: 'easeInOut', loop: Infinity },
         },
     };
 
