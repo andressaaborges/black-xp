@@ -19,7 +19,7 @@ function App() {
       <Header />
       <div className={styles.wrapper}>
         <main>
-          {/* <VLibras forceOnload={true} /> */}
+          <VLibras forceOnload={true} />
           <Home />
           <History />
           <Founders />
