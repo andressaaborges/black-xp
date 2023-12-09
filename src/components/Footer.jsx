@@ -28,8 +28,8 @@ export function Footer() {
                         <p>Acesse as nossas redes.</p>
                         <div className={styles.social}>
                             <a href="https://www.instagram.com/blackgamejam" target="_blank"><InstagramLogo size={30} /></a>
-                            <a href="tata@aimotech.com.br" target="_blank"><Envelope size={30} /></a>
-                            <a href="https://discord.gg/Z9bSaTmh" target="_blank"><DiscordLogo size={30} /></a>
+                            <a href="mailto:tata@aimotech.com.br" target="_blank"><Envelope size={30} /></a>
+                            <a href="https://discord.gg/RVDD77bn" target="_blank"><DiscordLogo size={30} /></a>
                         </div>
                     </div>
                 </div>
