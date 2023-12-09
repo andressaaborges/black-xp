@@ -10,13 +10,13 @@ export function Footer() {
                 <div className={styles.sectionButtons}>
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
-                        <a href="/" target="_blank">
+                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828" target="_blank">
                             Quero participar presencial!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
-                        <a href="/" target="_blank">
+                        <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832" target="_blank">
                             Quero participar online!
                         </a>
                     </button>
