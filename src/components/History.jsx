@@ -32,7 +32,7 @@ export function History() {
                     <div className={styles.cardsSection}>
                         <div className={styles.cards}>
                             <Card key={dataCards[0].id} content={dataCards[0].content} />
-                            <Card hasBorderLeft={false} key={dataCards[1].id} content={dataCards[1].content} />
+                            <Card hasBorderLeft={false} key={dataCards[1].id} content={dataCards[1].content} whileHover={{ scale: 1.05, transition: { duration: 0.3 } }} />
                         </div>
                         <div className={styles.patternsWrapper}>
                             <motion.img className={styles.patterns} src={patterns5} alt="Padrão geométrico da BlackXP" title="Padrão geométrico da BlackXP" whileInView={{

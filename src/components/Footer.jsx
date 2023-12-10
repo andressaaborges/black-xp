@@ -1,6 +1,7 @@
 import styles from './Footer.module.css';
 import logo from './../assets/black-xp-logo.svg';
-import { DiscordLogo, Envelope, InstagramLogo, WhatsappLogo } from '@phosphor-icons/react';
+import { DiscordLogo, Envelope, InstagramLogo } from '@phosphor-icons/react';
+import { motion } from 'framer-motion';
 
 export function Footer() {
 
@@ -22,7 +23,12 @@ export function Footer() {
                     </button>
                 </div>
                 <div className={styles.form}>
-                    <img src={logo} alt="Logo Black XP" title="Logo Black XP" />
+                <motion.img
+                        src={logo}
+                        alt="Logo Black XP"
+                        title="Logo Black XP"
+                        whileInView={{ rotate: [0, -50, 10, -10, 10, 0], transition: { duration: 2.5 } }}
+                    />
                     <h3>Ficou com alguma dúvida? Fala com a gente!</h3>
                     <div className={styles.contact}>
                         <p>Acesse as nossas redes.</p>

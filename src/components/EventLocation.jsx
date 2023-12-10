@@ -6,7 +6,7 @@ import pattern4 from "../assets/patterns/2.png";
 
 const EventLocation = () => {
     const locations = [
-        {   
+        {
             id: 1,
             title: 'Online',
             description: 'Participe do evento online no conforto da sua casa.',
@@ -40,10 +40,12 @@ const EventLocation = () => {
                             className={styles.card}
                         >
                             <div className={styles.icon}>{location.icon}</div>
-                            <motion.h3 initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, scale: 1, y: 0}}
-                            transition={{ duration: 0.5, delay: 2 * 0.2 }}>{location.title}</motion.h3>
+                            <motion.h3 initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 2 * 0.2 }}>{location.title}</motion.h3>
                             <p>{location.description}</p>
-                            <img src={pattern4} alt="Padrão geométrico Black XP" title="Padrão geométrico Black XP" />
+                            <motion.img src={pattern4} alt="Padrão geométrico Black XP" title="Padrão geométrico Black XP" whileInView={{ scale: 1.0, rotate: [0, 90, 180, 270, 360], transition: { duration: 0.5, ease: 'easeInOut', loop: Infinity } }}
+                                initial={{ opacity: 0, x: -20 }}
+                                animate={{ opacity: 1, x: 0 }} />
                         </div>
                     ))}
                 </div>
@@ -55,20 +57,5 @@ const EventLocation = () => {
         </section>
     );
 };
-
-// const Map = () => {
-
-//   const googleMapsApiKey = 'SAIzaSyDEkoaClI-HZ-turDCa2XbURw-L-WMK0f8';
-
-//   return (
-//     <iframe
-//       title="Localização"
-//       className={styles.map}
-//       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEkoaClI-HZ-turDCa2XbURw-L-WMK0f8&region=GB&callback=initMap"
-//       frameBorder="0"
-//       allowFullScreen
-//     ></iframe>
-//   );
-// };
 
 export default EventLocation;
