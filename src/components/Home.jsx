@@ -76,10 +76,15 @@ export function Home() {
                         </a>
                     </button>
                     <button className={styles.buttonHasBorder}>
+                        <a href="#what">
+                            Saiba Mais
+                        </a>
+                    </button>
+                    {/* <button className={styles.buttonHasBorder}>
                         <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
                             Participe Presencial!
                         </a>
-                    </button>
+                    </button> */}
                 </div>
             </article>
         </section>

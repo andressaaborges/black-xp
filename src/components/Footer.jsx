@@ -12,18 +12,18 @@ export function Footer() {
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
                         <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832" target="_blank">
-                            Quero participar online!
+                            Quero participar!
                         </a>
                     </button>
 
                     <button className={styles.buttonHasBorder}>
-                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828" target="_blank">
-                            Quero participar presencial!
+                        <a href="https://www.instagram.com/blackgamejam" target="_blank">
+                            Quero saber mais
                         </a>
                     </button>
                 </div>
                 <div className={styles.form}>
-                <motion.img
+                    <motion.img
                         src={logo}
                         alt="Logo Black XP"
                         title="Logo Black XP"
