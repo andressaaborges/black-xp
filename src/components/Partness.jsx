@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import polkadot from "./../assets/partness/Polkadot_Logo_Horizontal_Black.svg";
 import refaz from "./../assets/partness/Profile_Refaz.png";
-import onePercent from "./../assets/partness/logo-one-percent.svg";
+import rarum from "./../assets/partness/rarum.png";
 import planInternational from "./../assets/partness/planInternational.png";
 import boraAmbev from "./../assets/partness/boraAmbev.jpg";
 import aimoTech from "./../assets/partness/aimoTech.png";
@@ -27,8 +27,8 @@ export function Partness() {
         },
         {
             id: 2,
-            src: onePercent,
-            alt: "Logo One Percent",
+            src: rarum,
+            alt: "Logo Rarum",
         },
     ];
 
