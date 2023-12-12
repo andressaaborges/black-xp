@@ -12,13 +12,12 @@ export function Footer() {
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
                     <button className={styles.buttonBackground}>
                         <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832" target="_blank">
-                            Quero participar!
+                            Quero participar online!
                         </a>
                     </button>
-
                     <button className={styles.buttonHasBorder}>
-                        <a href="https://www.instagram.com/blackgamejam" target="_blank">
-                            Quero saber mais
+                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
+                            Quero participar presencial!
                         </a>
                     </button>
                 </div>
@@ -40,6 +39,6 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-        </footer >
+        </footer>
     )
 }

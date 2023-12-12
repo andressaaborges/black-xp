@@ -14,8 +14,8 @@ const EventLocation = () => {
         },
         {
             id: 2,
-            title: 'Nave Arena CWG Arena Fonte Nova - Salvador',
-            description: 'Junte-se a nós no Nave Arena CWG Arena Fonte Nova em Salvador.',
+            title: 'Casa Vale do Dendê - Salvador',
+            description: 'Junte-se a nós na Vale do Dendê no Pelourinho.',
             icon: <MapPinLine size={30} />,
         },
         {
