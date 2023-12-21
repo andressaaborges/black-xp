@@ -19,7 +19,7 @@ export function Impact() {
             id: 2,
             icon: <UserFocus size={30} />,
             title: 'Idade',
-            description: 'Este evento é destinado a pessoas com idade entre 16 e 29 anos que amam games.',
+            description: 'Este evento é destinado a pessoas com idade a partir de 16 anos que amam games.',
         },
         {
             id: 3,
