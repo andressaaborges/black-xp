@@ -1,7 +1,7 @@
 import styles from './Home.module.css';
 import blackxp from './../assets/blackXp.svg';
-import patterns2 from './../assets/patterns/9.png';
-import patterns5 from './../assets/patterns/4.png';
+import patterns2 from './../assets/patterns/7.png';
+import patterns5 from './../assets/patterns/5.png';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -10,7 +10,6 @@ export function Home() {
     const controls = useAnimation();
     const [ref, inView] = useInView();
 
-    // Animação personalizada para a logo
     const logoAnimation = {
         hidden: { opacity: 0, scale: 0 },
         visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
@@ -20,7 +19,6 @@ export function Home() {
         },
     };
 
-    // Animação personalizada para os patterns
     const patternsAnimation = {
         hidden: { scale: 0, rotate: 0 },
         visible: { scale: 1, rotate: 360, transition: { duration: 0.5 } },

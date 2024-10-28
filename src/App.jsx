@@ -23,8 +23,8 @@ function App() {
           <Home />
           <History />
           <Founders />
-          <Cores />
           <Impact />
+          <Cores />
           <Actions />
           <EventLocation />
           <Partness />

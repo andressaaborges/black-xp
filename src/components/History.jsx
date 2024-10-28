@@ -8,14 +8,14 @@ const dataCards = [
         id: 1,
         content: {
             name: "Uma Game Jam é uma maratona de desenvolvimento",
-            paragraph: "onde os participantes se reúnem para criar jogos em um curto período de tempo. Esse formato intensivo e colaborativo proporciona uma experiência única de criação e inovação no desenvolvimento de jogos. Mas a nossa é uma BLACK GAME JAM que é ainda mais especial, porque cria um ambiente diverso e acolhedor, focado no desenvolvimento de pessoas negras, sejam homens ou mulheres - cis, trans ou pessoas não-binárias. Ah, também temos um time super especial de monitores de diferentes áreas para ajudar sua equipe durante a jam.",
+            paragraph: "Uma Game Jam é uma maratona de desenvolvimento onde os participantes se reúnem para criar jogos em um curto período de tempo. Esse formato intensivo e colaborativo proporciona uma experiência única de criação e inovação no desenvolvimento de jogos. E a segunda edição da Black XP é ainda mais especial, porque é focada em estudantes do 8º e 9º ano da rede pública de Salvador. Durante o evento, você e sua equipe vão criar um jogo do zero, usando muita criatividade e inovação. E o melhor: é totalmente gratuito e faz parte da programação do IV Festival Afrofuturismo.",
         },
     },
     {
         id: 2,
         content: {
-            name: "Nosso evento é gratuito e híbrido",
-            paragraph: "ou seja, você pode optar por trabalhar online com a sua equipe através do nosso servidor ou no nosso espaço de coworking com equipamentos, internet de alta velocidade, muito café e um espaço kids para sua criança. Se essa é a sua primeira game jam, não se preocupe! Preparamos também um “After formativo” uma semana inteira com workshops online com um time de profissionais incríveis de diferentes áreas de desenvolvimento de jogos - no campo do design, programação, monetização de jogos que vão te ajudar a aprimorar suas habilidades, tirar dúvidas e se preparar melhor para Black Game Jam.",
+            name: "Além de desenvolver o seu próprio jogo,",
+            paragraph: "os participantes terão acesso a videoaulas e workshops com profissionais incríveis de áreas como design e programação, tudo pensado para ajudá-los a aprender e se preparar para a Jam. Também vai contar com o apoio de monitores prontos para auxiliar os times durante todo o processo. A Black XP não é só sobre games, é uma oportunidade de entrar no mundo da tecnologia, aprender novas habilidades e começar a pensar em uma carreira na área.",
         },
     },
 ];

@@ -5,47 +5,55 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import { motion } from 'framer-motion';
 import { CardFounders } from './CardFounders';
-import { CodeSimple, Heart, Play, Target, UsersThree } from '@phosphor-icons/react';
+import { BookOpenText, Code, HandWaving, Lifebuoy, ShareNetwork, UsersFour } from '@phosphor-icons/react';
 
 const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            photo: <UsersThree size={30} />,
+            photo: <UsersFour size={30} weight='duotone'/>,
             role: "Forme seu time",
-            companies: "Os participantes têm a opção de formar equipes com base em suas habilidades e interesses. Programadores, designers, artistas e músicos podem se unir para criar uma equipe equilibrada."
+            companies: "Antes de tudo, você vai formar sua equipe com base nas habilidades de cada um. A ideia é montar um time equilibrado, onde cada um contribui com algo único."
         },
     },
     {
         id: 2,
         talent: {
-            photo: <Target size={30} />,
+            photo: <BookOpenText size={30} weight='duotone'/>,
             role: "Conheça o tema",
-            companies: "O evento começa com a revelação de um tema específico, que serve como base para a criação dos jogos. O tema pode ser amplo e aberto à interpretação, estimulando a criatividade dos participantes."
+            companies: "O evento começa com a revelação de um tema surpresa, que vai ser o ponto de partida para criar o seu jogo. O tema é bem aberto para interpretação, então vale soltar a imaginação e ser criativo!"
         },
     },
     {
         id: 3,
         talent: {
-            photo: <Play size={30} />,
-            role: "Comece na Jam",
-            companies: "Com o tema revelado e as equipes formadas, a contagem regressiva começa. Os participantes têm um tempo limitado para idealizar, desenvolver e finalizar seus jogos."
+            photo: <HandWaving size={30} weight='duotone' />,
+            role: "Mãos à obra!",
+            companies: "Com o tema definido e os times prontos, começa a contagem regressiva. Vocês terão um tempo limitado para pensar, criar e finalizar o jogo. É hora de correr contra o tempo e colocar as ideias em prática!"
         },
     },
     {
         id: 4,
         talent: {
-            photo: <CodeSimple size={30} />,
-            role: "Desenvolva bem rápido",
-            companies: "Durante a Game Jam, as equipes trabalham arduamente para criar protótipos jogáveis de seus jogos. A pressão do tempo incentiva soluções criativas e inovações rápidas."
+            photo: <Code size={30} weight='duotone'/>,
+            role: "Desenvolva rápido",
+            companies: "Durante a Jam, o foco é desenvolver um protótipo jogável do seu jogo. A pressão do tempo é real, mas isso é ótimo para estimular soluções criativas e rápidas."
         },
     },
     {
         id: 5,
         talent: {
-            photo: <Heart size={30} />,
+            photo: <Lifebuoy size={30} weight='duotone'/>,
+            role: "Tenha ajuda",
+            companies: "Não se preocupe, um mentor especializado em programação vai estar junto com o seu time durante todo o processo, ajudando com o código e tirando qualquer dúvida técnica."
+        },
+    },
+    {
+        id: 6,
+        talent: {
+            photo: <ShareNetwork size={30} weight='duotone'/>,
             role: "Construa redes",
-            companies: "A Game Jam não é apenas sobre desenvolvimento de jogos! É também uma oportunidade para os participantes se conectarem, compartilharem ideias e aprenderem uns com os outros."
+            companies: "Além de criar o jogo, a Black XP é uma super oportunidade para conhecer gente nova, trocar ideias e aprender com os outros participantes. Quem sabe o seu próximo parceiro de projetos não está aqui?"
         },
     },
 ];

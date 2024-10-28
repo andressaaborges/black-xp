@@ -5,39 +5,33 @@ import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
 import { motion } from "framer-motion";
-import { Baby, BowlFood, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
+import { Baby, BowlFood, Broadcast, ChalkboardTeacher, ClockCountdown, Confetti, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
 
 export function Impact() {
     const cardsData = [
         {
             id: 1,
-            icon: <IdentificationBadge size={30} />,
-            title: 'Autodeclaração',
-            description: 'Se você é uma pessoa autodeclarada preta, parda ou indígena, este evento é para você.',
+            icon: <ChalkboardTeacher size={30} weight='duotone'/>,
+            title: 'Workshops Formativos',
+            description: `Antes da maratona começar, teremos workshops no formato de videoaulas, que estarão disponíveis tanto no YouTube quanto no nosso Discord. Esses vídeos vão abordar temas super importantes como design de jogos, criação de cenários e personagens, e Engines e programação para Jogos. Você vai poder assistir no seu tempo e aprender com especialistas para arrasar no desenvolvimento do seu jogo.`,
         },
         {
             id: 2,
-            icon: <UserFocus size={30} />,
-            title: 'Idade',
-            description: 'Este evento é destinado a pessoas com idade a partir de 16 anos que amam games.',
+            icon: <Broadcast size={30} weight='duotone'/>,
+            title: 'Live de Abertura',
+            description: 'No dia 27 de novembro, às 17h, vamos fazer uma live de abertura para revelar o tema surpresa da Game Jam. Fique ligado, porque é a partir desse momento que a maratona começa oficialmente!',
         },
         {
             id: 3,
-            icon: <GameController size={30} />,
-            title: 'Modalidade',
-            description: 'Escolha entre participação online, híbrida ou presencial.',
+            icon: <ClockCountdown size={30} weight='duotone'/>,
+            title: 'Maratona de Desenvolvimento',
+            description: 'Depois da live, nos dias 28 e 29 de novembro, começa a parte mais emocionante: você e seu time terão 48 horas para criar um jogo do zero! É hora de colocar a mão na massa e usar tudo o que aprendeu nos workshops para desenvolver seu próprio game.',
         },
         {
             id: 4,
-            icon: <Baby size={30} />,
-            title: 'Espaço Kids',
-            description: 'Informe se precisa de suporte do nosso espaço kids, incluindo a idade da criança.',
-        },
-        {
-            id: 5,
-            icon: <BowlFood size={30} />,
-            title: 'Alimentação',
-            description: 'Informe sobre alguma restrição alimentar para garantir uma experiência personalizada.',
+            icon: <Confetti size={30} weight='duotone'/>,
+            title: 'Apresentação e Premiação',
+            description: 'Na tarde do dia 29 de novembro, os participantes vão ter a chance de apresentar seus projetos pessoalmente na Arena Gamer do VI Festival Afrofuturismo, no Pelourinho. Lá, uma banca de jurados vai avaliar os jogos e escolher os melhores projetos, que concorrerão a prêmios incríveis como tablets  e celulares! 🏆',
         },
     ];
 
@@ -45,7 +39,7 @@ export function Impact() {
         return (
             <section className={styles.operation} id="registration">
                 <article className={styles.content}>
-                    <h2>Como me inscrever?</h2>
+                    <h2>Programação</h2>
                     <div className={styles.cardsSectionOperation}>
                         <Swiper grabCursor={true}
                             effect={"creative"}
@@ -95,7 +89,7 @@ export function Impact() {
             <section className={styles.operation} id="registration">
                 <article className={styles.content}>
                     <div className={styles.title}>
-                        <h2>Como me inscrever?</h2>
+                        <h2>Programação</h2>
                     </div>
                     <motion.div className={styles.cardsSectionOperation} initial={{ opacity: 0, scale: 0, x: 500, y: -50 }} whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }} transition={{ duration: 0.6 }}>
 
