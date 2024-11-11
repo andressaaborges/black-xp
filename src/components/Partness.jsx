@@ -4,10 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
-import polkadot from "./../assets/partness/Polkadot_Logo_Horizontal_Black.svg";
-import refaz from "./../assets/partness/Profile_Refaz.png";
+import ford from "./../assets/partness/ford.png";
+import valeDoDende from "./../assets/partness/valeDoDende.png";
 import rarum from "./../assets/partness/rarum.png";
-import planInternational from "./../assets/partness/planInternational.png";
+import semdec from "./../assets/partness/semdec.png";
 import boraAmbev from "./../assets/partness/boraAmbev.jpg";
 import aimoTech from "./../assets/partness/aimoTech.png";
 
@@ -22,32 +22,32 @@ export function Partness() {
     const institutionalSupportLogos = [
         {
             id: 1,
-            src: refaz,
-            alt: "Logo Refaz",
+            src: valeDoDende,
+            alt: "Logo Vale Do Dendê",
         },
-        {
-            id: 2,
-            src: rarum,
-            alt: "Logo Rarum",
-        },
+        // {
+        //     id: 2,
+        //     src: rarum,
+        //     alt: "Logo Rarum",
+        // },
     ];
 
     const sponsorshipLogos = [
         {
             id: 1,
-            src: polkadot,
-            alt: "Logo Polkadot",
+            src: ford,
+            alt: "Logo Ford",
         },
         {
             id: 2,
-            src: planInternational,
-            alt: "Logo Plan International",
+            src: semdec,
+            alt: "Logo Semdec",
         },
-        {
-            id: 3,
-            src: boraAmbev,
-            alt: "Logo Bora Ambev",
-        },
+        // {
+        //     id: 3,
+        //     src: boraAmbev,
+        //     alt: "Logo Bora Ambev",
+        // },
     ];
 
     return (

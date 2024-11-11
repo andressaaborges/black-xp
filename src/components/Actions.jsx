@@ -9,8 +9,7 @@ export function Actions() {
         <section className={styles.testimonials} id="organization">
             <h2>Quem Organiza?</h2>
             <article className={styles.content}>
-                <p>A <strong>aimo tech</strong> montou um time irado para esse evento acontecer, composto por profissionais experientes, mas também criando oportunidades para quem tá organizando uma jam pela primeira vez.<br /><br />Nas nossas redes sociais e no nosso servidor você vai poder conhecer o nosso time completo!</p>
-
+                <p>A <strong>aimo tech</strong> e <strong>Estúdio DUMA</strong> montou um time irado para esse evento acontecer, composto por profissionais experientes, mas também criando oportunidades para quem tá organizando uma jam pela primeira vez.<br /><br />Nas nossas redes sociais e no nosso servidor do discord você vai poder conhecer o nosso time completo!</p>
                 {/* <Swiper
                     slidesPerView={1}
                     spaceBetween={10}

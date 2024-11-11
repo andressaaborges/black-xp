@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { Calendar, MapPinLine, Laptop } from '@phosphor-icons/react';
+import { CalendarX, HouseLine, YoutubeLogo } from '@phosphor-icons/react';
 import styles from './EventLocation.module.css';
-import pattern4 from "../assets/patterns/2.png";
+import pattern4 from "../assets/patterns/7.svg";
 
 
 const EventLocation = () => {
@@ -9,20 +9,20 @@ const EventLocation = () => {
         {
             id: 1,
             title: 'Online',
-            description: 'Participe do evento online no conforto da sua casa.',
-            icon: <Laptop size={30} />,
+            description: 'Workshops online a partir de 18 de novembro no Youtube.',
+            icon: <YoutubeLogo size={30} weight="duotone" />,
         },
         {
             id: 2,
-            title: 'Casa Vale do Dendê - Salvador',
-            description: 'Junte-se a nós na Vale do Dendê no Pelourinho.',
-            icon: <MapPinLine size={30} />,
+            title: 'Casa Vale do Dendê - Pelourinho',
+            description: 'Junte-se a nós Online na Vale do Dendê no Pelourinho.',
+            icon: <HouseLine size={30} weight="duotone" />,
         },
         {
             id: 3,
-            title: '12 a 14 de Janeiro',
-            description: 'Dia cheio de atividades e diversão.',
-            icon: <Calendar size={30} />,
+            title: '28 e 29 de Novembro',
+            description: 'Uma Live de Abertura te espera no dia 28/11 às 19h.',
+            icon: <CalendarX size={30} weight="duotone" />,
         },
     ];
 
