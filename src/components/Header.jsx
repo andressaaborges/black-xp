@@ -1,5 +1,4 @@
 import styles from './Header.module.css';
-import olloLogo from './../assets/moviafro.svg';
 import React, { useState } from 'react';
 import { List, X } from '@phosphor-icons/react';
 import estatutoMoviafro from './../assets/EstatutoMoviafro.pdf';
