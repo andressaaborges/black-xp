@@ -1,10 +1,10 @@
 import styles from './CardAttributes.module.css';
 import { motion } from 'framer-motion';
-import { CalendarCheck, CaretCircleDown, CaretCircleUp, Microphone } from '@phosphor-icons/react';
+import { CalendarCheck, CaretCircleDown, CaretCircleUp, Microphone, ArrowFatLinesUp, ArrowFatLinesDown, UserCircle } from '@phosphor-icons/react';
 import { useState } from 'react';
 
 
-export function CardAttributes({ photo, title, role, description, date }) {
+export function CardAttributes({ photo, title, role, description }) {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const handleToggle = () => {
@@ -19,20 +19,20 @@ export function CardAttributes({ photo, title, role, description, date }) {
             </div>
             <div className={styles.content}>
                 <h1>{title}</h1>
-                <div className={styles.subtitle}>
+                {/* <div className={styles.subtitle}>
                     <CalendarCheck size={30} />
                     <h2>{date}</h2>
-                </div>
+                </div> */}
                 <div className={styles.subtitle}>
-                    <Microphone size={30} />
+                    <UserCircle  size={30} weight="duotone"/>
                     <h2>{role}</h2>
                 </div>
             </div>
             <details aria-expanded={isExpanded}>
                 <motion.summary onClick={handleToggle}>
                     <div className={styles.subtitle}>
-                        {isExpanded ? <CaretCircleUp size={30} /> : <CaretCircleDown size={30} />}
-                        <h2>{isExpanded ? "Saiba Menos" : "Saiba Mais"}</h2>
+                        {isExpanded ? <ArrowFatLinesUp size={30} weight="duotone"/> : <ArrowFatLinesDown size={30} weight="duotone"/>}
+                        <h2>{isExpanded ? "Fechar" : "Saiba Mais"}</h2>
                     </div>
                 </motion.summary>
                 {isExpanded && (

@@ -1,7 +1,7 @@
 import styles from './Home.module.css';
 import blackxp from './../assets/blackXp.svg';
-import patterns2 from './../assets/patterns/7.png';
-import patterns5 from './../assets/patterns/5.png';
+import patterns2 from './../assets/patterns/6.svg';
+import patterns5 from './../assets/patterns/1.svg';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
@@ -69,13 +69,13 @@ export function Home() {
                 </div>
                 <div className={styles.buttonsSection}>
                     <button className={styles.buttonBackground}>
-                        <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832">
-                            Inscreva-se agora!
+                        <a href="#what">
+                            Saiba Mais!
                         </a>
                     </button>
                     <button className={styles.buttonHasBorder}>
-                        <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
-                            Participe Presencial!
+                        <a href="#workshops">
+                            Confira os Workshops
                         </a>
                     </button>
                 </div>

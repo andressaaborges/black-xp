@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@djpfs/react-vlibras": "^2.0.2",
-    "@phosphor-icons/react": "^2.0.8",
+    "@phosphor-icons/react": "^2.1.7",
     "adinkra-icons": "^1.1.2",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",

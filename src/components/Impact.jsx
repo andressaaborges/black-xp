@@ -5,7 +5,7 @@ import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
 import { motion } from "framer-motion";
-import { Baby, BowlFood, Broadcast, ChalkboardTeacher, ClockCountdown, Confetti, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
+import { BowlFood, Broadcast, ChalkboardTeacher, ClockCountdown, Confetti, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
 
 export function Impact() {
     const cardsData = [
@@ -13,7 +13,7 @@ export function Impact() {
             id: 1,
             icon: <ChalkboardTeacher size={30} weight='duotone'/>,
             title: 'Workshops Formativos',
-            description: `Antes da maratona começar, teremos workshops no formato de videoaulas, que estarão disponíveis tanto no YouTube quanto no nosso Discord. Esses vídeos vão abordar temas super importantes como design de jogos, criação de cenários e personagens, e Engines e programação para Jogos. Você vai poder assistir no seu tempo e aprender com especialistas para arrasar no desenvolvimento do seu jogo.`,
+            description: `Antes da maratona, haverá workshops em formato de videoaulas no YouTube e no Discord, abordando temas importantes como design de jogos, criação de cenários e personagens, Engines e programação. Você poderá assistir no seu ritmo e aprender com especialistas para se destacar no desenvolvimento do seu jogo.`,
         },
         {
             id: 2,
