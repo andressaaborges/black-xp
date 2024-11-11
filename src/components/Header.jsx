@@ -1,7 +1,6 @@
 import styles from './Header.module.css';
 import React, { useState } from 'react';
 import { List, X } from '@phosphor-icons/react';
-import estatutoMoviafro from './../assets/EstatutoMoviafro.pdf';
 
 export function Header() {
     const [classOn, setClassOn] = useState(false);
