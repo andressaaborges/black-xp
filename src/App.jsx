@@ -2,6 +2,7 @@ import { Cores } from './components/Cores';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
 import { Impact } from './components/Impact';
+import { Inspirations } from './components/Inspirations';
 import styles from './App.module.css';
 import './global.css';
 import { Partness } from './components/Partness';
@@ -24,6 +25,7 @@ function App() {
           <History />
           <Founders />
           <Impact />
+          <Inspirations />
           <Cores />
           <Actions />
           <EventLocation />
