@@ -6,42 +6,48 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import { motion } from 'framer-motion';
 import { City, Money, UsersFour, WifiHigh } from '@phosphor-icons/react';
+import photo1 from './../assets/last/1.jpg'
+import photo2 from './../assets/last/2.jpg'
+import photo3 from './../assets/last/3.jpg'
+import photo4 from './../assets/last/4.jpg'
+import photo5 from './../assets/last/5.jpg'
+import photo6 from './../assets/last/6.jpg'
 
 const dataCardsTalents = [
     {
         id: 1,
         talent: {
-            // photo: personIvannide,
-            name: "Ivannide Rodrigues",
-            surname: "Santa Barbara",
-            companies: "Doutora Honoris Causa"
+            photo: photo1
         },
     },
     {
         id: 2,
         talent: {
-            // photo: personNegraJho,
-            name: "Negra",
-            surname: "Jhô",
-            companies: "Criadora do Instituto Kimundo"
+            photo: photo2
         },
     },
     {
         id: 3,
         talent: {
-            // photo: personDanielPintto,
-            name: "Daniel",
-            surname: "Pintto",
-            companies: "Professor e Escritor"
+            photo: photo3
         },
     },
     {
         id: 4,
         talent: {
-            // photo: personChica,
-            name: "Chica",
-            surname: "do Pandeiro",
-            companies: "Referência do Samba na Bahia"
+            photo: photo4,
+        },
+    },
+    {
+        id: 5,
+        talent: {
+            photo: photo5,
+        },
+    },
+    {
+        id: 6,
+        talent: {
+            photo: photo6,
         },
     },
 ];
@@ -93,7 +99,7 @@ export function Inspirations() {
 
                         }}
                     >
-                        {/* <div className={styles.cardsTalents}>
+                        <div className={styles.cardsTalents}>
                             {dataCardsTalents.map(item => {
                                 return (
                                     <SwiperSlide key={item.id}>
@@ -104,7 +110,7 @@ export function Inspirations() {
                                     </SwiperSlide>
                                 )
                             })}
-                        </div> */}
+                        </div>
                     </Swiper>
                 </div>
             </article>

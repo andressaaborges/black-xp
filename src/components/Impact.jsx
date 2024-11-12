@@ -5,7 +5,7 @@ import 'swiper/css';
 import "swiper/css/effect-creative";
 import { EffectCreative } from "swiper";
 import { motion } from "framer-motion";
-import { BowlFood, Broadcast, ChalkboardTeacher, ClockCountdown, Confetti, GameController, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
+import { BowlFood, Broadcast, ChalkboardTeacher, ClockCountdown, Confetti, IdentificationBadge, UserFocus } from '@phosphor-icons/react';
 
 export function Impact() {
     const cardsData = [
