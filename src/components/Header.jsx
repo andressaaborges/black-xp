@@ -11,7 +11,7 @@ export function Header() {
                 <div className={classOn ? styles.menuSectionOn : styles.menuSection} onClick={classOn ? () => setClassOn(false) : () => setClassOn(!classOn)}>
                     <section className={styles.navMobile} >
                         <article className={styles.menuToggle}>
-                            {classOn ? <X size={46} color="#ffffff" weight="bold" onClick={() => setClassOn(false)} /> : <List size={46} color="#ffffff" weight="fill" onClick={() => setClassOn(!classOn)} />}
+                            {classOn ? <X size={46} color="#ffffff" weight="bold" onClick={() => setClassOn(false)} /> : <List size={46} onClick={() => setClassOn(!classOn)} />}
                         </article>
                     </section>
                     <nav>

@@ -10,12 +10,12 @@ export function Footer() {
             <div className={styles.containerSecond}>
                 <div className={styles.sectionButtons}>
                     <h2>Agora me conta...<br />Topa participar dessa aventura conosco?</h2>
-                    {/* <button className={styles.buttonBackground}>
-                        <a href="https://www.sympla.com.br/evento-online/black-xp-game-jam-online/2275832" target="_blank">
-                            Quero participar online!
+                    <button className={styles.buttonBackground}>
+                        <a href="https://www.instagram.com/blackgamejam" target="_blank">
+                            Visite nosso Instagram!
                         </a>
                     </button>
-                    <button className={styles.buttonHasBorder}>
+                    {/* <button className={styles.buttonHasBorder}>
                         <a href="https://www.sympla.com.br/black-xp-game-jam__2275828">
                             Quero participar presencial!
                         </a>
@@ -32,9 +32,9 @@ export function Footer() {
                     <div className={styles.contact}>
                         <p>Acesse as nossas redes.</p>
                         <div className={styles.social}>
-                            <a href="https://www.instagram.com/blackgamejam" target="_blank"><InstagramLogo size={30} /></a>
-                            <a href="mailto:tata@aimotech.com.br" target="_blank"><Envelope size={30} /></a>
-                            <a href="https://discord.gg/RVDD77bn" target="_blank"><DiscordLogo size={30} /></a>
+                            <a href="https://www.instagram.com/blackgamejam" target="_blank"><InstagramLogo size={30} weight="duotone"/></a>
+                            <a href="mailto:tata@aimotech.com.br" target="_blank"><Envelope size={30} weight="duotone" /></a>
+                            <a href="https://discord.gg/RVDD77bn" target="_blank"><DiscordLogo size={30} weight="duotone" /></a>
                         </div>
                     </div>
                 </div>
