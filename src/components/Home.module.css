@@ -205,7 +205,8 @@
         width: 45%;
         position: absolute;
         right: 0;
-        bottom: -25%;
+        bottom: -29%;
+        rotate: -42deg;
     }
     
     .logo {
