@@ -15,7 +15,7 @@ const EventLocation = () => {
         {
             id: 2,
             title: 'Casa Vale do Dendê - Pelourinho',
-            description: 'Junte-se a nós Online na Vale do Dendê no Pelourinho.',
+            description: 'Junte-se a nós Online e na Vale do Dendê no Pelourinho.',
             icon: <HouseLine size={30} weight="duotone" />,
         },
         {
